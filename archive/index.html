@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>目录检索 · LILY’s blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c2420;
+    --muted: #5f6e66;
+    --line: rgba(28, 36, 32, 0.12);
+    --accent: #2f6f5e;
+    --panel: rgba(255, 255, 255, 0.72);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(900px 500px at 0% 0%, #d9ebe3 0%, transparent 55%),
+      radial-gradient(800px 480px at 100% 10%, #f0e0d2 0%, transparent 50%),
+      linear-gradient(165deg, #eef2ee, #f7f4ee 40%, #e8eee9);
+    background-attachment: fixed;
+    line-height: 1.45;
+  }
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  header { margin-bottom: 2rem; }
+  .brand {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .brand a { color: inherit; text-decoration: none; }
+  .brand a:hover { color: var(--accent); }
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.03em;
+    margin: 0.4rem 0 0.6rem;
+    line-height: 1.05;
+  }
+  .lede {
+    color: var(--muted);
+    margin: 0 0 1.25rem;
+    max-width: 34rem;
+  }
+  .years {
+    font-size: 0.92rem;
+    line-height: 1.8;
+    padding: 0.9rem 1rem;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+  }
+  .years a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .years a:hover { text-decoration: underline; }
+  .year { margin-top: 2.25rem; }
+  .year h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 1.45rem;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+  }
+  .year h2 span {
+    font-family: "Figtree", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    gap: 0.75rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(28, 36, 32, 0.06);
+    align-items: baseline;
+  }
+  time {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.88rem;
+  }
+  li a { color: var(--ink); text-decoration: none; }
+  li a:hover { color: var(--accent); }
+  footer {
+    margin-top: 3rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 560px) {
+    li {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+      padding: 0.65rem 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><a href="https://lilyppbb.wordpress.com/">LILY’s blog</a> · archive</div>
+      <h1>目录检索</h1>
+      <p class="lede">1223 posts, grouped by year. Each title goes through <code>/archives/{id}</code> so the site redirect can resolve it.</p>
+      <nav class="years"><a href="#y2017">2017</a> · <a href="#y2016">2016</a> · <a href="#y2015">2015</a> · <a href="#y2013">2013</a> · <a href="#y2012">2012</a> · <a href="#y2011">2011</a> · <a href="#y2010">2010</a> · <a href="#y2009">2009</a> · <a href="#y2008">2008</a> · <a href="#y2007">2007</a> · <a href="#y2006">2006</a> · <a href="#y2005">2005</a> · <a href="#y2004">2004</a></nav>
+    </header>
+    <section class="year" id="y2017">
+      <h2>2017 <span>1</span></h2>
+      <ul>
+      <li><time datetime="2017-06-22">2017-06-22</time><a href="/archives/2762">文学的反击</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2016">
+      <h2>2016 <span>6</span></h2>
+      <ul>
+      <li><time datetime="2016-11-20">2016-11-20</time><a href="/archives/2756">滋味人生</a></li>
+      <li><time datetime="2016-11-20">2016-11-20</time><a href="/archives/2755">真相不止一个</a></li>
+      <li><time datetime="2016-05-21">2016-05-21</time><a href="/archives/2751">别把账算在哈珀·李身上</a></li>
+      <li><time datetime="2016-05-21">2016-05-21</time><a href="/archives/2749">在世界末日后听故事</a></li>
+      <li><time datetime="2016-05-21">2016-05-21</time><a href="/archives/2747">短篇小说翻身记</a></li>
+      <li><time datetime="2016-05-21">2016-05-21</time><a href="/archives/2746">将生命活进艺术里</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2015">
+      <h2>2015 <span>12</span></h2>
+      <ul>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2743">从拉合尔到纽约、伦敦</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2742">翁达杰小说的前世今生</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2741">他，不是说故事的人</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2740">凯尔特之虎</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2739">走进美国公共图书馆</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2738">听士兵讲他们自己的故事</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2737">青花瓷里的世界史</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2736">圣母玛利亚的回响</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2735">叛逆的乡村姑娘</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2734">找不着北的文学奖</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2733">翁达杰的故事迷宫</a></li>
+      <li><time datetime="2015-10-25">2015-10-25</time><a href="/archives/2732">幸福的童年也能诞生杰出的作家</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2013">
+      <h2>2013 <span>1</span></h2>
+      <ul>
+      <li><time datetime="2013-01-15">2013-01-15</time><a href="/archives/2561">我从前门出来，他走了后门</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2012">
+      <h2>2012 <span>12</span></h2>
+      <ul>
+      <li><time datetime="2012-11-21">2012-11-21</time><a href="/archives/2542">新人作家与文学奖</a></li>
+      <li><time datetime="2012-11-07">2012-11-07</time><a href="/archives/2531">短的故事，长的人生</a></li>
+      <li><time datetime="2012-09-26">2012-09-26</time><a href="/archives/2505">Paul Auster: Winter Journal</a></li>
+      <li><time datetime="2012-09-26">2012-09-26</time><a href="/archives/2504">Jon McGregor: Even the Dogs</a></li>
+      <li><time datetime="2012-08-01">2012-08-01</time><a href="/archives/2473">献给伦敦的房间</a></li>
+      <li><time datetime="2012-07-16">2012-07-16</time><a href="/archives/2461">David Vann: Caribou Island</a></li>
+      <li><time datetime="2012-07-07">2012-07-07</time><a href="/archives/2458">Gerbrand Bakker: The Detour</a></li>
+      <li><time datetime="2012-04-09">2012-04-09</time><a href="/archives/2456">Jeanette Winterson: Why Be Happy When You Could Be Normal?</a></li>
+      <li><time datetime="2012-03-06">2012-03-06</time><a href="/archives/2455">Miroslav Penkov: East of the West</a></li>
+      <li><time datetime="2012-02-20">2012-02-20</time><a href="/archives/2453">回忆最好的时光</a></li>
+      <li><time datetime="2012-01-17">2012-01-17</time><a href="/archives/2450">Anne Enright: The Forgotten Waltz</a></li>
+      <li><time datetime="2012-01-09">2012-01-09</time><a href="/archives/2448">电子硝烟下的书和书店</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2011">
+      <h2>2011 <span>102</span></h2>
+      <ul>
+      <li><time datetime="2011-12-12">2011-12-12</time><a href="/archives/2446">兴趣的迷思</a></li>
+      <li><time datetime="2011-11-26">2011-11-26</time><a href="/archives/2428">Bowers Museum</a></li>
+      <li><time datetime="2011-11-05">2011-11-05</time><a href="/archives/2425">购书整理</a></li>
+      <li><time datetime="2011-10-23">2011-10-23</time><a href="/archives/2423">充满争议的布克奖，没有争议的获奖者</a></li>
+      <li><time datetime="2011-10-13">2011-10-13</time><a href="/archives/2421">美国国家图书奖决选名单</a></li>
+      <li><time datetime="2011-10-06">2011-10-06</time><a href="/archives/2420">瑞典诗人Tomas Tranströmer获诺贝尔文学奖</a></li>
+      <li><time datetime="2011-10-04">2011-10-04</time><a href="/archives/2418">加拿大吉勒文学奖短名单</a></li>
+      <li><time datetime="2011-09-30">2011-09-30</time><a href="/archives/2417">你知道或不知道的史迪格·拉森</a></li>
+      <li><time datetime="2011-09-29">2011-09-29</time><a href="/archives/2415">大英百科全书将推出iPad App</a></li>
+      <li><time datetime="2011-09-19">2011-09-19</time><a href="/archives/2410">Edna O’Brien获弗兰克·奥康纳国际短篇小说奖</a></li>
+      <li><time datetime="2011-09-16">2011-09-16</time><a href="/archives/2409">我眼中的那些文学奖</a></li>
+      <li><time datetime="2011-09-12">2011-09-12</time><a href="/archives/2412">Eugene McCabe: Death and Nightingales</a></li>
+      <li><time datetime="2011-09-08">2011-09-08</time><a href="/archives/2407">加拿大吉勒文学奖长名单</a></li>
+      <li><time datetime="2011-09-07">2011-09-07</time><a href="/archives/2406">布克奖短名单</a></li>
+      <li><time datetime="2011-09-03">2011-09-03</time><a href="/archives/2403">Hammer购书</a></li>
+      <li><time datetime="2011-09-01">2011-09-01</time><a href="/archives/2401">卫报首作奖长名单</a></li>
+      <li><time datetime="2011-08-08">2011-08-08</time><a href="/archives/2399">格兰塔之保加利亚周</a></li>
+      <li><time datetime="2011-08-08">2011-08-08</time><a href="/archives/2400">一本书，一幅欧洲文学地图</a></li>
+      <li><time datetime="2011-08-04">2011-08-04</time><a href="/archives/2398">购书整理</a></li>
+      <li><time datetime="2011-08-04">2011-08-04</time><a href="/archives/2388">读书笔记</a></li>
+      <li><time datetime="2011-08-04">2011-08-04</time><a href="/archives/2395">Alexandra Hemon 对话 Colum McCann</a></li>
+      <li><time datetime="2011-08-01">2011-08-01</time><a href="/archives/2393">美国加入世界书夜免费赠书活动</a></li>
+      <li><time datetime="2011-07-31">2011-07-31</time><a href="/archives/2394">沉在水底的回忆</a></li>
+      <li><time datetime="2011-07-27">2011-07-27</time><a href="/archives/2392">索尔仁尼琴的短篇集英译本将出版</a></li>
+      <li><time datetime="2011-07-26">2011-07-26</time><a href="/archives/2389">布克奖长名单</a></li>
+      <li><time datetime="2011-07-20">2011-07-20</time><a href="/archives/2387">百岁杨绛的访谈节录</a></li>
+      <li><time datetime="2011-07-17">2011-07-17</time><a href="/archives/2385">津巴布韦女作家Bulawayo获凯恩文学奖</a></li>
+      <li><time datetime="2011-07-17">2011-07-17</time><a href="/archives/2376">读书笔记</a></li>
+      <li><time datetime="2011-07-16">2011-07-16</time><a href="/archives/2382">芝加哥购书</a></li>
+      <li><time datetime="2011-07-11">2011-07-11</time><a href="/archives/2381">弗兰克·奥康纳国际短篇小说奖短名单</a></li>
+      <li><time datetime="2011-07-11">2011-07-11</time><a href="/archives/2379">书的未来，未来的书</a></li>
+      <li><time datetime="2011-07-11">2011-07-11</time><a href="/archives/2378">乔伊斯的护照</a></li>
+      <li><time datetime="2011-07-06">2011-07-06</time><a href="/archives/2371">读书笔记</a></li>
+      <li><time datetime="2011-07-06">2011-07-06</time><a href="/archives/2374">新发现的塞林格书信</a></li>
+      <li><time datetime="2011-07-04">2011-07-04</time><a href="/archives/2372">海明威逝世五十周年</a></li>
+      <li><time datetime="2011-07-04">2011-07-04</time><a href="/archives/2373">一位年轻小说家的自白</a></li>
+      <li><time datetime="2011-06-30">2011-06-30</time><a href="/archives/2347">读书笔记</a></li>
+      <li><time datetime="2011-06-29">2011-06-29</time><a href="/archives/2370">曼集团拟设立美国布克奖</a></li>
+      <li><time datetime="2011-06-28">2011-06-28</time><a href="/archives/2369">读者最爱的独立出版社</a></li>
+      <li><time datetime="2011-06-26">2011-06-26</time><a href="/archives/2367">与书为伴</a></li>
+      <li><time datetime="2011-06-24">2011-06-24</time><a href="/archives/2365">女儿笔下虚构的内米洛夫斯基</a></li>
+      <li><time datetime="2011-06-20">2011-06-20</time><a href="/archives/2364">明天，我们读的拉美作家会是谁？</a></li>
+      <li><time datetime="2011-06-18">2011-06-18</time><a href="/archives/2362">ebook之后的未来图书</a></li>
+      <li><time datetime="2011-06-18">2011-06-18</time><a href="/archives/2363">文学奖，并非一枝独秀的竞赛</a></li>
+      <li><time datetime="2011-06-17">2011-06-17</time><a href="/archives/2360">电子书与文学编辑</a></li>
+      <li><time datetime="2011-06-15">2011-06-15</time><a href="/archives/2358">Colum McCann获国际IMPAC都柏林文学奖</a></li>
+      <li><time datetime="2011-06-15">2011-06-15</time><a href="/archives/2356">新的切·格瓦拉的日记出版</a></li>
+      <li><time datetime="2011-06-13">2011-06-13</time><a href="/archives/2355">拉什迪开始写电视剧本</a></li>
+      <li><time datetime="2011-06-12">2011-06-12</time><a href="/archives/2353">杀人者与被杀者的一步之距</a></li>
+      <li><time datetime="2011-06-10">2011-06-10</time><a href="/archives/2352">Lydia Davis 评新的英译蓝波诗集</a></li>
+      <li><time datetime="2011-06-08">2011-06-08</time><a href="/archives/2350">The Tiger’s Wife 获英国橙橘奖</a></li>
+      <li><time datetime="2011-06-07">2011-06-07</time><a href="/archives/2348">Don Delillo的首部短篇集</a></li>
+      <li><time datetime="2011-06-03">2011-06-03</time><a href="/archives/2345">写作与性别</a></li>
+      <li><time datetime="2011-06-01">2011-06-01</time><a href="/archives/2307">读书笔记</a></li>
+      <li><time datetime="2011-06-01">2011-06-01</time><a href="/archives/2344">101岁的德语作家Hans Keilson去世</a></li>
+      <li><time datetime="2011-05-31">2011-05-31</time><a href="/archives/2343">用写作面对最黑暗的过去</a></li>
+      <li><time datetime="2011-05-31">2011-05-31</time><a href="/archives/2341">以色列作家Grossman讲丧子的新书</a></li>
+      <li><time datetime="2011-05-27">2011-05-27</time><a href="/archives/2340">爱尔兰作家John Banville获卡夫卡奖</a></li>
+      <li><time datetime="2011-05-25">2011-05-25</time><a href="/archives/2339">独立书商图书奖揭晓</a></li>
+      <li><time datetime="2011-05-22">2011-05-22</time><a href="/archives/2338">基辛格与中国</a></li>
+      <li><time datetime="2011-05-21">2011-05-21</time><a href="/archives/2336">罗斯获曼布克国际奖后的采访</a></li>
+      <li><time datetime="2011-05-18">2011-05-18</time><a href="/archives/2334">菲利普·罗斯获曼布克国际奖</a></li>
+      <li><time datetime="2011-05-16">2011-05-16</time><a href="/archives/2333">五月，来读点短篇小说吧</a></li>
+      <li><time datetime="2011-05-15">2011-05-15</time><a href="/archives/2332">非虚构与文学</a></li>
+      <li><time datetime="2011-05-12">2011-05-12</time><a href="/archives/2327">翻译与版权</a></li>
+      <li><time datetime="2011-05-09">2011-05-09</time><a href="/archives/2325">独来读往的周末</a></li>
+      <li><time datetime="2011-05-02">2011-05-02</time><a href="/archives/2324">2011最佳翻译图书奖</a></li>
+      <li><time datetime="2011-04-28">2011-04-28</time><a href="/archives/2321">完整版《格雷的画像》将出版</a></li>
+      <li><time datetime="2011-04-18">2011-04-18</time><a href="/archives/2319">乡下人</a></li>
+      <li><time datetime="2011-04-17">2011-04-17</time><a href="/archives/2317">别样风景的北欧文学</a></li>
+      <li><time datetime="2011-04-14">2011-04-14</time><a href="/archives/2316">李翊云谈翻译沈从文家书</a></li>
+      <li><time datetime="2011-04-13">2011-04-13</time><a href="/archives/2315">Joyce Carol Oates最糟，李翊云最有戏</a></li>
+      <li><time datetime="2011-04-12">2011-04-12</time><a href="/archives/2314">英国橙橘奖、IMPAC都柏林文学奖短名单</a></li>
+      <li><time datetime="2011-04-11">2011-04-11</time><a href="/archives/2312">独立报外国小说奖短名单</a></li>
+      <li><time datetime="2011-03-31">2011-03-31</time><a href="/archives/2310">百岁老人，半个世纪前的书写</a></li>
+      <li><time datetime="2011-03-24">2011-03-24</time><a href="/archives/2309">2011最佳翻译图书奖候选作品</a></li>
+      <li><time datetime="2011-03-19">2011-03-19</time><a href="/archives/2305">读书笔记</a></li>
+      <li><time datetime="2011-03-15">2011-03-15</time><a href="/archives/2304">2011年英国橙橘奖长名单</a></li>
+      <li><time datetime="2011-03-14">2011-03-14</time><a href="/archives/2303">国际阿拉伯小说奖</a></li>
+      <li><time datetime="2011-03-14">2011-03-14</time><a href="/archives/2301">Teju Cole: Open City</a></li>
+      <li><time datetime="2011-03-10">2011-03-10</time><a href="/archives/2300">独立报外国小说奖的候选长名单</a></li>
+      <li><time datetime="2011-03-05">2011-03-05</time><a href="/archives/2294">洛杉矶独立书店一：Book Soup</a></li>
+      <li><time datetime="2011-03-04">2011-03-04</time><a href="/archives/2293">Orhan Pamuk: The Naive and the Sentimental Novelist</a></li>
+      <li><time datetime="2011-03-02">2011-03-02</time><a href="/archives/2291">2010 The Story Prize</a></li>
+      <li><time datetime="2011-03-02">2011-03-02</time><a href="/archives/2288">2011笔会/福克纳小说奖候选作品</a></li>
+      <li><time datetime="2011-02-28">2011-02-28</time><a href="/archives/2287">读书笔记</a></li>
+      <li><time datetime="2011-02-26">2011-02-26</time><a href="/archives/2286">Daniel Alarcon: War by Candlelight</a></li>
+      <li><time datetime="2011-02-22">2011-02-22</time><a href="/archives/2282">洛杉矶时报书奖候选书单</a></li>
+      <li><time datetime="2011-02-17">2011-02-17</time><a href="/archives/2281">Book is an object.</a></li>
+      <li><time datetime="2011-02-16">2011-02-16</time><a href="/archives/2279">偶遇</a></li>
+      <li><time datetime="2011-02-11">2011-02-11</time><a href="/archives/2273">读书笔记</a></li>
+      <li><time datetime="2011-02-09">2011-02-09</time><a href="/archives/2275">Paul Yoon: Once the Shore</a></li>
+      <li><time datetime="2011-02-09">2011-02-09</time><a href="/archives/2274">2011年英美新书预览</a></li>
+      <li><time datetime="2011-01-23">2011-01-23</time><a href="/archives/2271">美国国家书评人协会奖候选作品揭晓</a></li>
+      <li><time datetime="2011-01-21">2011-01-21</time><a href="/archives/2270">抄书</a></li>
+      <li><time datetime="2011-01-19">2011-01-19</time><a href="/archives/2268">读书笔记</a></li>
+      <li><time datetime="2011-01-14">2011-01-14</time><a href="/archives/2264">拉森女友计划完成千禧第四部曲</a></li>
+      <li><time datetime="2011-01-12">2011-01-12</time><a href="/archives/2246">读书笔记</a></li>
+      <li><time datetime="2011-01-10">2011-01-10</time><a href="/archives/2262">Reading in 2011</a></li>
+      <li><time datetime="2011-01-09">2011-01-09</time><a href="/archives/2261">LA County Museum of Art</a></li>
+      <li><time datetime="2011-01-04">2011-01-04</time><a href="/archives/2256">2010英美文学盘点</a></li>
+      <li><time datetime="2011-01-03">2011-01-03</time><a href="/archives/2255">他，敲开了英语世界的门──Per Petterson</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2010">
+      <h2>2010 <span>117</span></h2>
+      <ul>
+      <li><time datetime="2010-12-16">2010-12-16</time><a href="/archives/2252">关于 Jaimy Gordon</a></li>
+      <li><time datetime="2010-12-13">2010-12-13</time><a href="/archives/2247">旧金山以北</a></li>
+      <li><time datetime="2010-12-10">2010-12-10</time><a href="/archives/2237">读书笔记</a></li>
+      <li><time datetime="2010-12-08">2010-12-08</time><a href="/archives/2242">现代社会下的一夫多妻──观摩门女性的婚姻与家庭</a></li>
+      <li><time datetime="2010-12-08">2010-12-08</time><a href="/archives/2213">2010年夏·黄石</a></li>
+      <li><time datetime="2010-12-04">2010-12-04</time><a href="/archives/2234">读书笔记</a></li>
+      <li><time datetime="2010-12-01">2010-12-01</time><a href="/archives/2235">卫报首作奖与纽约时报十大好书</a></li>
+      <li><time datetime="2010-11-18">2010-11-18</time><a href="/archives/2232">美国国家图书基金会评出的5 Under 35</a></li>
+      <li><time datetime="2010-11-17">2010-11-17</time><a href="/archives/2231">美国国家图书奖今揭晓</a></li>
+      <li><time datetime="2010-11-16">2010-11-16</time><a href="/archives/2230">科斯塔图书奖入围揭晓</a></li>
+      <li><time datetime="2010-11-13">2010-11-13</time><a href="/archives/2229">读书笔记</a></li>
+      <li><time datetime="2010-11-10">2010-11-10</time><a href="/archives/2227">小出版社和大文学奖</a></li>
+      <li><time datetime="2010-11-09">2010-11-09</time><a href="/archives/2226">加拿大吉勒奖（Giller Prize）获奖作揭晓</a></li>
+      <li><time datetime="2010-10-31">2010-10-31</time><a href="/archives/2216">读书笔记</a></li>
+      <li><time datetime="2010-10-30">2010-10-30</time><a href="/archives/2225">继续整理书</a></li>
+      <li><time datetime="2010-10-28">2010-10-28</time><a href="/archives/2224">购书整理</a></li>
+      <li><time datetime="2010-10-28">2010-10-28</time><a href="/archives/2222">卫报首作奖候选书单</a></li>
+      <li><time datetime="2010-10-28">2010-10-28</time><a href="/archives/2221">2010 Whiting Writers’ Award</a></li>
+      <li><time datetime="2010-10-25">2010-10-25</time><a href="/archives/2217">遇 Colum McCann</a></li>
+      <li><time datetime="2010-10-19">2010-10-19</time><a href="/archives/2214">关于《遥望》</a></li>
+      <li><time datetime="2010-10-17">2010-10-17</time><a href="/archives/2196">读书笔记</a></li>
+      <li><time datetime="2010-10-13">2010-10-13</time><a href="/archives/2211">美国国家图书奖决选作品</a></li>
+      <li><time datetime="2010-10-12">2010-10-12</time><a href="/archives/2210">The Finkler Question获2010年布克奖</a></li>
+      <li><time datetime="2010-10-12">2010-10-12</time><a href="/archives/2208">Emma Donoghue: Room</a></li>
+      <li><time datetime="2010-10-09">2010-10-09</time><a href="/archives/2207">购书整理</a></li>
+      <li><time datetime="2010-10-07">2010-10-07</time><a href="/archives/2206">Mario Vargas Llosa 获2010诺贝尔文学奖</a></li>
+      <li><time datetime="2010-10-06">2010-10-06</time><a href="/archives/2204">加拿大吉勒文学奖决选作品</a></li>
+      <li><time datetime="2010-09-20">2010-09-20</time><a href="/archives/2202">读书笔记</a></li>
+      <li><time datetime="2010-09-07">2010-09-07</time><a href="/archives/2200">2010年布克奖决选书单</a></li>
+      <li><time datetime="2010-09-02">2010-09-02</time><a href="/archives/2199">托宾·惊喜</a></li>
+      <li><time datetime="2010-09-02">2010-09-02</time><a href="/archives/2198">Gerbrand Bakker: The Twin</a></li>
+      <li><time datetime="2010-08-22">2010-08-22</time><a href="/archives/2190">读书笔记</a></li>
+      <li><time datetime="2010-08-20">2010-08-20</time><a href="/archives/2194">新书</a></li>
+      <li><time datetime="2010-08-14">2010-08-14</time><a href="/archives/2193">《遥望》译后记</a></li>
+      <li><time datetime="2010-08-10">2010-08-10</time><a href="/archives/2192">高估和低估</a></li>
+      <li><time datetime="2010-08-07">2010-08-07</time><a href="/archives/2191">荷兰作家 Hans Keilson</a></li>
+      <li><time datetime="2010-08-04">2010-08-04</time><a href="/archives/2189">David Mitchell: 云图</a></li>
+      <li><time datetime="2010-07-31">2010-07-31</time><a href="/archives/2188">William Trevor: Love and Summer</a></li>
+      <li><time datetime="2010-07-29">2010-07-29</time><a href="/archives/2187">Inception</a></li>
+      <li><time datetime="2010-07-27">2010-07-27</time><a href="/archives/2185">布克奖初选入围作品</a></li>
+      <li><time datetime="2010-07-25">2010-07-25</time><a href="/archives/2181">读书笔记</a></li>
+      <li><time datetime="2010-07-22">2010-07-22</time><a href="/archives/2184">Sherry Ellis: Illuminating Fiction</a></li>
+      <li><time datetime="2010-07-20">2010-07-20</time><a href="/archives/2183">英语翻译小说</a></li>
+      <li><time datetime="2010-07-14">2010-07-14</time><a href="/archives/2182">洛杉矶公共图书馆</a></li>
+      <li><time datetime="2010-07-10">2010-07-10</time><a href="/archives/2180">Paul Harding: Tinkers</a></li>
+      <li><time datetime="2010-07-09">2010-07-09</time><a href="/archives/2179">Frank O’Connor 短篇小说奖入围</a></li>
+      <li><time datetime="2010-07-08">2010-07-08</time><a href="/archives/2162">读书笔记</a></li>
+      <li><time datetime="2010-07-06">2010-07-06</time><a href="/archives/2178">塞拉利昂作家 Olufemi Terry 获非洲布克奖</a></li>
+      <li><time datetime="2010-07-04">2010-07-04</time><a href="/archives/2177">Edmund White: City Boy</a></li>
+      <li><time datetime="2010-06-25">2010-06-25</time><a href="/archives/2175">Book Bloggers，部落格读家</a></li>
+      <li><time datetime="2010-06-25">2010-06-25</time><a href="/archives/2174">局限</a></li>
+      <li><time datetime="2010-06-24">2010-06-24</time><a href="/archives/2173">球内球外</a></li>
+      <li><time datetime="2010-06-24">2010-06-24</time><a href="/archives/2171">The Karate Kid (2010)</a></li>
+      <li><time datetime="2010-06-23">2010-06-23</time><a href="/archives/2169">Philipp Meyer: American Rust</a></li>
+      <li><time datetime="2010-06-20">2010-06-20</time><a href="/archives/2167">Tatiana de Rosnay: 莎拉的钥匙（苏莹文/译）</a></li>
+      <li><time datetime="2010-06-18">2010-06-18</time><a href="/archives/2166">葡萄牙作家 Saramago 去世</a></li>
+      <li><time datetime="2010-06-17">2010-06-17</time><a href="/archives/2165">荷兰小说 The Twin 获IMPAC文学奖</a></li>
+      <li><time datetime="2010-06-16">2010-06-16</time><a href="/archives/2163">Arnaldur Indridason：血之罪（蒋宜臻/译）</a></li>
+      <li><time datetime="2010-06-10">2010-06-10</time><a href="/archives/2160">购书</a></li>
+      <li><time datetime="2010-06-09">2010-06-09</time><a href="/archives/2159">The Lacuna 获英国小说橙橘奖</a></li>
+      <li><time datetime="2010-06-07">2010-06-07</time><a href="/archives/2158">Marilyn Johnson: This Book Is Overdue!</a></li>
+      <li><time datetime="2010-06-05">2010-06-05</time><a href="/archives/2156">David Bajo：珥玛的351本书（赵丕慧 译）</a></li>
+      <li><time datetime="2010-06-04">2010-06-04</time><a href="/archives/2151">新书</a></li>
+      <li><time datetime="2010-06-04">2010-06-04</time><a href="/archives/2154">纽约时报书评：Alone with You</a></li>
+      <li><time datetime="2010-06-03">2010-06-03</time><a href="/archives/2153">《纽约客》选出的20位40岁以下最优秀小说作家</a></li>
+      <li><time datetime="2010-06-01">2010-06-01</time><a href="/archives/2152">Jeannette Walls: Half-Broken Horses</a></li>
+      <li><time datetime="2010-05-29">2010-05-29</time><a href="/archives/2150">读书笔记</a></li>
+      <li><time datetime="2010-05-26">2010-05-26</time><a href="/archives/2148">翁达杰文学奖</a></li>
+      <li><time datetime="2010-05-21">2010-05-21</time><a href="/archives/2145">Edith Grossman: 翻译为什么重要</a></li>
+      <li><time datetime="2010-05-21">2010-05-21</time><a href="/archives/2144">电子书及其他</a></li>
+      <li><time datetime="2010-05-21">2010-05-21</time><a href="/archives/2143">拉森的千禧旋风</a></li>
+      <li><time datetime="2010-05-17">2010-05-17</time><a href="/archives/2141">英语文学期刊竞争度排名</a></li>
+      <li><time datetime="2010-05-17">2010-05-17</time><a href="/archives/2139">独立报外国小说奖：Brodeck’s Report by Philippe Claudel</a></li>
+      <li><time datetime="2010-05-15">2010-05-15</time><a href="/archives/2136">Lloyd Jones: 在荒岛上遇见狄更斯</a></li>
+      <li><time datetime="2010-05-12">2010-05-12</time><a href="/archives/2135">卡佛和Brat Pack</a></li>
+      <li><time datetime="2010-05-11">2010-05-11</time><a href="/archives/2134">角谷美智子痛批Martin Amis新作</a></li>
+      <li><time datetime="2010-05-10">2010-05-10</time><a href="/archives/2132">Stieg Larsson: 直捣蜂窝的女孩</a></li>
+      <li><time datetime="2010-05-10">2010-05-10</time><a href="/archives/2131">文学奖的慧眼与影响力</a></li>
+      <li><time datetime="2010-05-07">2010-05-07</time><a href="/archives/2130">读书笔记</a></li>
+      <li><time datetime="2010-05-01">2010-05-01</time><a href="/archives/2128">洛杉矶时报书奖获奖小说</a></li>
+      <li><time datetime="2010-04-26">2010-04-26</time><a href="/archives/2127">Shortlist for Caine prize</a></li>
+      <li><time datetime="2010-04-20">2010-04-20</time><a href="/archives/2126">英国橙橘奖入围作品揭晓</a></li>
+      <li><time datetime="2010-04-16">2010-04-16</time><a href="/archives/2124">The Shortlist for Independent Foreign Fiction Prize</a></li>
+      <li><time datetime="2010-04-15">2010-04-15</time><a href="/archives/2122">口口相传，成就 Tinkers</a></li>
+      <li><time datetime="2010-04-14">2010-04-14</time><a href="/archives/2121">《巴黎评论》颁给菲利普·罗斯 Hadada Award</a></li>
+      <li><time datetime="2010-04-13">2010-04-13</time><a href="/archives/2120">读书笔记</a></li>
+      <li><time datetime="2010-04-12">2010-04-12</time><a href="/archives/2118">美国独立书店一瞥</a></li>
+      <li><time datetime="2010-04-12">2010-04-12</time><a href="/archives/2117">2010年普利策小说</a></li>
+      <li><time datetime="2010-04-12">2010-04-12</time><a href="/archives/2115">2010 IMPAC Shortlists</a></li>
+      <li><time datetime="2010-04-06">2010-04-06</time><a href="/archives/2108">踏青</a></li>
+      <li><time datetime="2010-04-01">2010-04-01</time><a href="/archives/2106">Ildefonso Falcones: 海上教堂</a></li>
+      <li><time datetime="2010-04-01">2010-04-01</time><a href="/archives/2107">Chinua Achebe: The Education of a British-Protected Child</a></li>
+      <li><time datetime="2010-03-29">2010-03-29</time><a href="/archives/2105">Wells Tower: Everything Ravaged, Everything Burned</a></li>
+      <li><time datetime="2010-03-23">2010-03-23</time><a href="/archives/2104">Sherman Alexie获笔会/福克纳小说奖</a></li>
+      <li><time datetime="2010-03-18">2010-03-18</time><a href="/archives/2102">Alice In Wonderland</a></li>
+      <li><time datetime="2010-03-16">2010-03-16</time><a href="/archives/2101">Roberto Bolano: Monsieur Pain</a></li>
+      <li><time datetime="2010-03-16">2010-03-16</time><a href="/archives/2100">2010年橙橘奖入围名单</a></li>
+      <li><time datetime="2010-03-13">2010-03-13</time><a href="/archives/2099">Louis Menand: The Marketplace of Ideas</a></li>
+      <li><time datetime="2010-03-11">2010-03-11</time><a href="/archives/2098">《狼厅》获美国书评人协会最佳小说奖</a></li>
+      <li><time datetime="2010-03-04">2010-03-04</time><a href="/archives/2096">Don Dellillo</a></li>
+      <li><time datetime="2010-03-02">2010-03-02</time><a href="/archives/2095">读书笔记</a></li>
+      <li><time datetime="2010-03-01">2010-03-01</time><a href="/archives/2094">Colum McCann: Let the Great World Spin</a></li>
+      <li><time datetime="2010-02-24">2010-02-24</time><a href="/archives/2093">Peter Hessler的新书</a></li>
+      <li><time datetime="2010-02-24">2010-02-24</time><a href="/archives/2091">PEN/Faulkner Award Finalists</a></li>
+      <li><time datetime="2010-02-22">2010-02-22</time><a href="/archives/2090">2009洛杉矶时报书奖入围名单</a></li>
+      <li><time datetime="2010-02-18">2010-02-18</time><a href="/archives/2075">过年，走的地方，看的书</a></li>
+      <li><time datetime="2010-02-10">2010-02-10</time><a href="/archives/2073">笔记</a></li>
+      <li><time datetime="2010-02-02">2010-02-02</time><a href="/archives/2071">读书笔记</a></li>
+      <li><time datetime="2010-02-02">2010-02-02</time><a href="/archives/2070">Lorrie Moore: A Gate At the Stairs</a></li>
+      <li><time datetime="2010-02-01">2010-02-01</time><a href="/archives/2069">新书</a></li>
+      <li><time datetime="2010-01-29">2010-01-29</time><a href="/archives/2068">塞林格遗作</a></li>
+      <li><time datetime="2010-01-28">2010-01-28</time><a href="/archives/2067">巨流河，我曾是流亡学生</a></li>
+      <li><time datetime="2010-01-26">2010-01-26</time><a href="/archives/2066">白丝带</a></li>
+      <li><time datetime="2010-01-19">2010-01-19</time><a href="/archives/2065">读书笔记</a></li>
+      <li><time datetime="2010-01-18">2010-01-18</time><a href="/archives/2051">北京印象</a></li>
+      <li><time datetime="2010-01-13">2010-01-13</time><a href="/archives/2059">Jodi Picoult: 死亡约定</a></li>
+      <li><time datetime="2010-01-04">2010-01-04</time><a href="/archives/2052">上海48小时</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2009">
+      <h2>2009 <span>119</span></h2>
+      <ul>
+      <li><time datetime="2009-12-26">2009-12-26</time><a href="/archives/2050">Vladimir Nabokov: The Original of Laura</a></li>
+      <li><time datetime="2009-12-13">2009-12-13</time><a href="/archives/2049">Herta Mueller: 风中绿李</a></li>
+      <li><time datetime="2009-12-12">2009-12-12</time><a href="/archives/2019">中文书单</a></li>
+      <li><time datetime="2009-12-10">2009-12-10</time><a href="/archives/2047">两本中文书</a></li>
+      <li><time datetime="2009-12-09">2009-12-09</time><a href="/archives/2033">感恩节在波多黎各</a></li>
+      <li><time datetime="2009-12-02">2009-12-02</time><a href="/archives/2031">2009卫报首作奖</a></li>
+      <li><time datetime="2009-12-02">2009-12-02</time><a href="/archives/2030">Mark McGurl: The Program Era</a></li>
+      <li><time datetime="2009-12-02">2009-12-02</time><a href="/archives/2028">Kazuo Ishguro: Nocturnes</a></li>
+      <li><time datetime="2009-11-26">2009-11-26</time><a href="/archives/2027">Philip Roth: The Humbling</a></li>
+      <li><time datetime="2009-11-23">2009-11-23</time><a href="/archives/2026">讣文</a></li>
+      <li><time datetime="2009-11-18">2009-11-18</time><a href="/archives/2025">2009美国国家图书奖</a></li>
+      <li><time datetime="2009-11-14">2009-11-14</time><a href="/archives/2022">Naomi Klein: 震撼主义</a></li>
+      <li><time datetime="2009-11-07">2009-11-07</time><a href="/archives/2021">采访Colm Toibin</a></li>
+      <li><time datetime="2009-11-06">2009-11-06</time><a href="/archives/2020">Juan Gabriel Vasquez: The Informers</a></li>
+      <li><time datetime="2009-10-31">2009-10-31</time><a href="/archives/2016">Simon Van Booy: Love Begins in Winter</a></li>
+      <li><time datetime="2009-10-25">2009-10-25</time><a href="/archives/2018">书单</a></li>
+      <li><time datetime="2009-10-24">2009-10-24</time><a href="/archives/2017">丽水的“艺术村”</a></li>
+      <li><time datetime="2009-10-19">2009-10-19</time><a href="/archives/2015">“哲学家”</a></li>
+      <li><time datetime="2009-10-16">2009-10-16</time><a href="/archives/2014">天使面孔，魔鬼野心──莱妮•里芬斯塔尔</a></li>
+      <li><time datetime="2009-10-14">2009-10-14</time><a href="/archives/2013">美国国家图书奖候选揭晓</a></li>
+      <li><time datetime="2009-10-14">2009-10-14</time><a href="/archives/2012">下猫下狗</a></li>
+      <li><time datetime="2009-10-13">2009-10-13</time><a href="/archives/2011">Colm Toibin: Brooklyn</a></li>
+      <li><time datetime="2009-10-10">2009-10-10</time><a href="/archives/2009">关于Sony Reader的一点心得</a></li>
+      <li><time datetime="2009-10-08">2009-10-08</time><a href="/archives/2006">2009年的诺贝尔文学奖</a></li>
+      <li><time datetime="2009-10-07">2009-10-07</time><a href="/archives/2005">2009布克奖</a></li>
+      <li><time datetime="2009-10-05">2009-10-05</time><a href="/archives/2003">Jen Christian Grondahl：沉默的十月</a></li>
+      <li><time datetime="2009-09-28">2009-09-28</time><a href="/archives/2001">Noah Charney：偷画贼</a></li>
+      <li><time datetime="2009-09-25">2009-09-25</time><a href="/archives/1999">Colm Toibin: The Blackwater Lightship</a></li>
+      <li><time datetime="2009-09-21">2009-09-21</time><a href="/archives/1997">Frank O’Connor 国际短篇小说奖</a></li>
+      <li><time datetime="2009-09-20">2009-09-20</time><a href="/archives/1996">Vikas Swarup：六个嫌疑犯</a></li>
+      <li><time datetime="2009-09-18">2009-09-18</time><a href="/archives/1994">Aravind Adiga：白老虎</a></li>
+      <li><time datetime="2009-09-14">2009-09-14</time><a href="/archives/1980">一部电影，一座城</a></li>
+      <li><time datetime="2009-09-13">2009-09-13</time><a href="/archives/1975">周末流水账</a></li>
+      <li><time datetime="2009-09-10">2009-09-10</time><a href="/archives/1974">Petina Gappah: An Elegy for Easterly</a></li>
+      <li><time datetime="2009-09-08">2009-09-08</time><a href="/archives/1970">Man Booker 2009 shortlist</a></li>
+      <li><time datetime="2009-09-06">2009-09-06</time><a href="/archives/1969">纵贯线演唱会印象</a></li>
+      <li><time datetime="2009-09-03">2009-09-03</time><a href="/archives/1968">李翊云：好奇的眼睛洞穿人心</a></li>
+      <li><time datetime="2009-09-03">2009-09-03</time><a href="/archives/1966">龙应台：大/江/大/海/一/九/四/九</a></li>
+      <li><time datetime="2009-09-02">2009-09-02</time><a href="/archives/1965">Saramago关博写新作</a></li>
+      <li><time datetime="2009-09-02">2009-09-02</time><a href="/archives/1964">火焰山</a></li>
+      <li><time datetime="2009-08-30">2009-08-30</time><a href="/archives/1963">Maggie O’Farrell: 消失的艾思蜜</a></li>
+      <li><time datetime="2009-08-25">2009-08-25</time><a href="/archives/1962">Yrsa Sigurðardóttir：死亡祭仪</a></li>
+      <li><time datetime="2009-08-20">2009-08-20</time><a href="/archives/1960">放风</a></li>
+      <li><time datetime="2009-08-17">2009-08-17</time><a href="/archives/1959">Stieg Larsson：玩火的女孩</a></li>
+      <li><time datetime="2009-08-13">2009-08-13</time><a href="/archives/1957">从乡下妞到坏女孩──海伦·格利·布朗</a></li>
+      <li><time datetime="2009-08-13">2009-08-13</time><a href="/archives/1956">Daniyal Mueenuddin: In Other Rooms, Other Wonders</a></li>
+      <li><time datetime="2009-08-11">2009-08-11</time><a href="/archives/1955">Kurt Vonnegut：猎捕独角兽</a></li>
+      <li><time datetime="2009-08-09">2009-08-09</time><a href="/archives/1954">Jhumpa Lahiri：陌生的土地</a></li>
+      <li><time datetime="2009-08-08">2009-08-08</time><a href="/archives/1953">Malibu淘书</a></li>
+      <li><time datetime="2009-08-07">2009-08-07</time><a href="/archives/1951">特拉维夫的夜曲</a></li>
+      <li><time datetime="2009-08-07">2009-08-07</time><a href="/archives/1950">Woodstock，八月那三天</a></li>
+      <li><time datetime="2009-08-06">2009-08-06</time><a href="/archives/1948">牢骚：博客来，如此客服</a></li>
+      <li><time datetime="2009-08-02">2009-08-02</time><a href="/archives/1947">Guillaume Musso：然后呢…</a></li>
+      <li><time datetime="2009-08-02">2009-08-02</time><a href="/archives/1946">Sana Krasikov: One More Year</a></li>
+      <li><time datetime="2009-07-29">2009-07-29</time><a href="/archives/1944">Chimamanda Adichie: The Thing Around Your Neck</a></li>
+      <li><time datetime="2009-07-28">2009-07-28</time><a href="/archives/1941">垃圾小说</a></li>
+      <li><time datetime="2009-07-26">2009-07-26</time><a href="/archives/1943">Philip Roth: Indignation</a></li>
+      <li><time datetime="2009-07-22">2009-07-22</time><a href="/archives/1942">在慢热中长大 ── 哈利·波特与“混血王子”</a></li>
+      <li><time datetime="2009-07-20">2009-07-20</time><a href="/archives/1936">China Safari: On the Trail of Beijing’s Expansion in Africa</a></li>
+      <li><time datetime="2009-07-19">2009-07-19</time><a href="/archives/1940">Herb and Dorothy</a></li>
+      <li><time datetime="2009-07-19">2009-07-19</time><a href="/archives/1937">Julia Franck：午间女人</a></li>
+      <li><time datetime="2009-07-15">2009-07-15</time><a href="/archives/1935">罪与爱──最迷人的头号敌人：《公众之敌》（Public Enemies）</a></li>
+      <li><time datetime="2009-07-14">2009-07-14</time><a href="/archives/1934">两条新闻</a></li>
+      <li><time datetime="2009-07-13">2009-07-13</time><a href="/archives/1933">Javier Marías：如此苍白的心</a></li>
+      <li><time datetime="2009-07-10">2009-07-10</time><a href="/archives/1932">寻书</a></li>
+      <li><time datetime="2009-07-08">2009-07-08</time><a href="/archives/1929">赌城印象</a></li>
+      <li><time datetime="2009-06-29">2009-06-29</time><a href="/archives/1927">夏日时光</a></li>
+      <li><time datetime="2009-06-27">2009-06-27</time><a href="/archives/1926">Marilynne Robinson: Home</a></li>
+      <li><time datetime="2009-06-26">2009-06-26</time><a href="/archives/1925">演唱会</a></li>
+      <li><time datetime="2009-06-24">2009-06-24</time><a href="/archives/1924">Siegfried Lenz：为你默哀一分钟</a></li>
+      <li><time datetime="2009-06-22">2009-06-22</time><a href="/archives/1923">“勤奋”的周末</a></li>
+      <li><time datetime="2009-06-20">2009-06-20</time><a href="/archives/1922">书·影</a></li>
+      <li><time datetime="2009-06-19">2009-06-19</time><a href="/archives/1921">IMPAC都柏林文学奖：Man Gone Down</a></li>
+      <li><time datetime="2009-06-12">2009-06-12</time><a href="/archives/1920">J.R.Moehringer：温柔酒吧</a></li>
+      <li><time datetime="2009-06-10">2009-06-10</time><a href="/archives/1918">Amos Oz: Rhyming Life &amp; Death</a></li>
+      <li><time datetime="2009-06-09">2009-06-09</time><a href="/archives/1917">Graham Greene: The Power and the Glory</a></li>
+      <li><time datetime="2009-06-08">2009-06-08</time><a href="/archives/1916">卜正民：维梅尔的帽子──从一幅画看17世纪全球贸易</a></li>
+      <li><time datetime="2009-06-03">2009-06-03</time><a href="/archives/1914">英国橙橘奖：Home (Marilynne Robinson)</a></li>
+      <li><time datetime="2009-06-02">2009-06-02</time><a href="/archives/1913">四月五月书单</a></li>
+      <li><time datetime="2009-06-01">2009-06-01</time><a href="/archives/1911">Muriel Barbery：刺猬的优雅</a></li>
+      <li><time datetime="2009-06-01">2009-06-01</time><a href="/archives/1909">周末碎事</a></li>
+      <li><time datetime="2009-05-30">2009-05-30</time><a href="/archives/1908">李翊云：The Vagrants</a></li>
+      <li><time datetime="2009-05-27">2009-05-27</time><a href="/archives/1907">曼布克国际文学奖：Alice Munro</a></li>
+      <li><time datetime="2009-05-26">2009-05-26</time><a href="/archives/1906">Markus Zusak：传信人</a></li>
+      <li><time datetime="2009-05-18">2009-05-18</time><a href="/archives/1904">老影院·Little Ashes</a></li>
+      <li><time datetime="2009-05-18">2009-05-18</time><a href="/archives/1902">伊莱娜·内米洛夫斯基：用文字和生命较量</a></li>
+      <li><time datetime="2009-05-15">2009-05-15</time><a href="/archives/1901">Stieg Larsson：龙纹身的女孩</a></li>
+      <li><time datetime="2009-05-11">2009-05-11</time><a href="/archives/1899">Earth·书店风景</a></li>
+      <li><time datetime="2009-05-07">2009-05-07</time><a href="/archives/1895">约书亚树·红鼻子</a></li>
+      <li><time datetime="2009-05-01">2009-05-01</time><a href="/archives/1893">学费</a></li>
+      <li><time datetime="2009-05-01">2009-05-01</time><a href="/archives/1892">Juli Zeh：物理属于相爱的人</a></li>
+      <li><time datetime="2009-04-27">2009-04-27</time><a href="/archives/1891">2009普利策小说奖</a></li>
+      <li><time datetime="2009-04-22">2009-04-22</time><a href="/archives/1889">陈之藩：散步</a></li>
+      <li><time datetime="2009-04-19">2009-04-19</time><a href="/archives/1887">金钱·艺术·Getty</a></li>
+      <li><time datetime="2009-04-17">2009-04-17</time><a href="/archives/1886">礼物</a></li>
+      <li><time datetime="2009-04-14">2009-04-14</time><a href="/archives/1885">张爱玲：小团圆</a></li>
+      <li><time datetime="2009-04-12">2009-04-12</time><a href="/archives/1883">愚人码头</a></li>
+      <li><time datetime="2009-04-08">2009-04-08</time><a href="/archives/1882">World Digital Library</a></li>
+      <li><time datetime="2009-04-04">2009-04-04</time><a href="/archives/1881">lost in city</a></li>
+      <li><time datetime="2009-03-22">2009-03-22</time><a href="/archives/1879">酒囊饭袋的生活</a></li>
+      <li><time datetime="2009-03-18">2009-03-18</time><a href="/archives/1876">追星</a></li>
+      <li><time datetime="2009-03-14">2009-03-14</time><a href="/archives/1873">Berkeley·24城记</a></li>
+      <li><time datetime="2009-03-14">2009-03-14</time><a href="/archives/1872">3月购书整理</a></li>
+      <li><time datetime="2009-03-14">2009-03-14</time><a href="/archives/1870">2009年美国国家书评奖</a></li>
+      <li><time datetime="2009-03-05">2009-03-05</time><a href="/archives/1868">杂碎之杂碎</a></li>
+      <li><time datetime="2009-02-23">2009-02-23</time><a href="/archives/1864">Arturo Perez-Reverte：大仲马俱乐部</a></li>
+      <li><time datetime="2009-02-20">2009-02-20</time><a href="/archives/1863">遗憾</a></li>
+      <li><time datetime="2009-02-16">2009-02-16</time><a href="/archives/1861">情人节·书市</a></li>
+      <li><time datetime="2009-02-13">2009-02-13</time><a href="/archives/1859">黑色星期五</a></li>
+      <li><time datetime="2009-02-08">2009-02-08</time><a href="/archives/1857">最后一天</a></li>
+      <li><time datetime="2009-02-06">2009-02-06</time><a href="/archives/1854">借书记──文化与公共图书馆</a></li>
+      <li><time datetime="2009-02-05">2009-02-05</time><a href="/archives/1853">昏昏欲睡</a></li>
+      <li><time datetime="2009-01-30">2009-01-30</time><a href="/archives/1852">时差</a></li>
+      <li><time datetime="2009-01-26">2009-01-26</time><a href="/archives/1851">谢其章：搜书记</a></li>
+      <li><time datetime="2009-01-17">2009-01-17</time><a href="/archives/1849">残阳下的独立书店</a></li>
+      <li><time datetime="2009-01-17">2009-01-17</time><a href="/archives/1847">难得好天气</a></li>
+      <li><time datetime="2009-01-09">2009-01-09</time><a href="/archives/1846">博客搬家到 Dreamhost</a></li>
+      <li><time datetime="2009-01-07">2009-01-07</time><a href="/archives/1844">速溶咖啡</a></li>
+      <li><time datetime="2009-01-02">2009-01-02</time><a href="/archives/1843">新年倒数</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2008">
+      <h2>2008 <span>173</span></h2>
+      <ul>
+      <li><time datetime="2008-12-25">2008-12-25</time><a href="/archives/1841">一个人过冬</a></li>
+      <li><time datetime="2008-12-21">2008-12-21</time><a href="/archives/1839">culture shock</a></li>
+      <li><time datetime="2008-12-20">2008-12-20</time><a href="/archives/1838">故人旧事·回忆文章</a></li>
+      <li><time datetime="2008-12-08">2008-12-08</time><a href="/archives/1837">Michael Ondaatje: Divisadero</a></li>
+      <li><time datetime="2008-12-05">2008-12-05</time><a href="/archives/1834">纽约时报年度十大好书</a></li>
+      <li><time datetime="2008-12-04">2008-12-04</time><a href="/archives/1833">巫宁坤：一滴泪</a></li>
+      <li><time datetime="2008-12-03">2008-12-03</time><a href="/archives/1832">今年的卫报首作奖</a></li>
+      <li><time datetime="2008-11-30">2008-11-30</time><a href="/archives/1831">温梓川：文人的另一面</a></li>
+      <li><time datetime="2008-11-27">2008-11-27</time><a href="/archives/1830">火鸡和南瓜</a></li>
+      <li><time datetime="2008-11-23">2008-11-23</time><a href="/archives/1829">文字和自由</a></li>
+      <li><time datetime="2008-11-21">2008-11-21</time><a href="/archives/1827">另类文学奖──最糟性爱描写奖（Bad Sex Award）</a></li>
+      <li><time datetime="2008-11-21">2008-11-21</time><a href="/archives/1825">成功无规律</a></li>
+      <li><time datetime="2008-11-20">2008-11-20</time><a href="/archives/1824">Henning Mankell：第五个死人</a></li>
+      <li><time datetime="2008-11-20">2008-11-20</time><a href="/archives/1823">2008年美国书卷奖（National Book Award）</a></li>
+      <li><time datetime="2008-11-17">2008-11-17</time><a href="/archives/1822">纽约·康州印象</a></li>
+      <li><time datetime="2008-11-09">2008-11-09</time><a href="/archives/1821">11月Palo Alto书市</a></li>
+      <li><time datetime="2008-11-07">2008-11-07</time><a href="/archives/1820">困在忙中</a></li>
+      <li><time datetime="2008-11-05">2008-11-05</time><a href="/archives/1819">黑的，白的，还是红的？</a></li>
+      <li><time datetime="2008-11-01">2008-11-01</time><a href="/archives/1818">Arundhati Roy：微物之神（The God of Small Things）</a></li>
+      <li><time datetime="2008-10-30">2008-10-30</time><a href="/archives/1816">杂书碎片二</a></li>
+      <li><time datetime="2008-10-26">2008-10-26</time><a href="/archives/1815">杂书碎片</a></li>
+      <li><time datetime="2008-10-22">2008-10-22</time><a href="/archives/1814">文革中的西藏</a></li>
+      <li><time datetime="2008-10-22">2008-10-22</time><a href="/archives/1812">Young and Restless in China</a></li>
+      <li><time datetime="2008-10-19">2008-10-19</time><a href="/archives/1811">10月Cuptertino买书</a></li>
+      <li><time datetime="2008-10-19">2008-10-19</time><a href="/archives/1809">马拉松电影</a></li>
+      <li><time datetime="2008-10-16">2008-10-16</time><a href="/archives/1808">历史的印痕</a></li>
+      <li><time datetime="2008-10-15">2008-10-15</time><a href="/archives/1807">丁三：蓝衣社碎片</a></li>
+      <li><time datetime="2008-10-15">2008-10-15</time><a href="/archives/1805">印度作家Aravind Adiga的小说《白虎》赢得英国布克奖</a></li>
+      <li><time datetime="2008-10-14">2008-10-14</time><a href="/archives/1803">廖以武（老威）：中国底层访谈录卷二──民间访谈录</a></li>
+      <li><time datetime="2008-10-13">2008-10-13</time><a href="/archives/1802">Jared Diamond: 性趣何来？</a></li>
+      <li><time datetime="2008-10-12">2008-10-12</time><a href="/archives/1800">周末俗尘杂事</a></li>
+      <li><time datetime="2008-10-10">2008-10-10</time><a href="/archives/1798">小说和小说之外</a></li>
+      <li><time datetime="2008-10-08">2008-10-08</time><a href="/archives/1796">章立凡：君子之交</a></li>
+      <li><time datetime="2008-10-06">2008-10-06</time><a href="/archives/1795">Every Monday is different.</a></li>
+      <li><time datetime="2008-10-06">2008-10-06</time><a href="/archives/1790">Sandor Marai：伪装成独白的爱情</a></li>
+      <li><time datetime="2008-10-06">2008-10-06</time><a href="/archives/1785">金瓶梅私房笔记（1）</a></li>
+      <li><time datetime="2008-10-02">2008-10-02</time><a href="/archives/1759">Philip P.Pan: Out of Mao’s Shadow</a></li>
+      <li><time datetime="2008-09-30">2008-09-30</time><a href="/archives/1755">百年苦梦：20世纪中国文人心态扫描</a></li>
+      <li><time datetime="2008-09-29">2008-09-29</time><a href="/archives/1741">George A.Fitch: My Eighty Years in China</a></li>
+      <li><time datetime="2008-09-28">2008-09-28</time><a href="/archives/1735">Henning Mankell：死亡错步</a></li>
+      <li><time datetime="2008-09-28">2008-09-28</time><a href="/archives/1722">周末笑闹</a></li>
+      <li><time datetime="2008-09-26">2008-09-26</time><a href="/archives/1703">无关联想</a></li>
+      <li><time datetime="2008-09-25">2008-09-25</time><a href="/archives/1699">蒋勳：孤独六讲</a></li>
+      <li><time datetime="2008-09-24">2008-09-24</time><a href="/archives/1686">电影和书</a></li>
+      <li><time datetime="2008-09-22">2008-09-22</time><a href="/archives/1675">唐弢：回忆·书简·散记</a></li>
+      <li><time datetime="2008-09-22">2008-09-22</time><a href="/archives/1654">孤独·成长·老去</a></li>
+      <li><time datetime="2008-09-20">2008-09-20</time><a href="/archives/1645">萧红：呼兰河传</a></li>
+      <li><time datetime="2008-09-18">2008-09-18</time><a href="/archives/1634">邵燕祥：别了，毛泽东（回忆与思考 1945-1958）</a></li>
+      <li><time datetime="2008-09-15">2008-09-15</time><a href="/archives/1623">Henning Mankell：杀人狗</a></li>
+      <li><time datetime="2008-09-14">2008-09-14</time><a href="/archives/1618">9月Palo Alto购书</a></li>
+      <li><time datetime="2008-09-13">2008-09-13</time><a href="/archives/1616">又到一年 Man Booker Prize</a></li>
+      <li><time datetime="2008-09-12">2008-09-12</time><a href="/archives/1613">袁鹰：风云侧记（我在人民日报副刊的岁月）</a></li>
+      <li><time datetime="2008-09-12">2008-09-12</time><a href="/archives/1610">唯色：看不见的西藏</a></li>
+      <li><time datetime="2008-09-11">2008-09-11</time><a href="/archives/1606">推荐Peter Hessler一文</a></li>
+      <li><time datetime="2008-09-10">2008-09-10</time><a href="/archives/1600">朱正：两家争鸣─反右派斗争</a></li>
+      <li><time datetime="2008-09-09">2008-09-09</time><a href="/archives/1583">Jodi Picoult：事发的19分钟</a></li>
+      <li><time datetime="2008-09-05">2008-09-05</time><a href="/archives/1578">Annie Proulx的新书</a></li>
+      <li><time datetime="2008-09-05">2008-09-05</time><a href="/archives/1573">图书馆情结</a></li>
+      <li><time datetime="2008-09-05">2008-09-05</time><a href="/archives/1566">章诒和：一半烟遮 一半云埋</a></li>
+      <li><time datetime="2008-09-03">2008-09-03</time><a href="/archives/1560">Frida·旧金山MoMA</a></li>
+      <li><time datetime="2008-09-03">2008-09-03</time><a href="/archives/1554">Arturo Perez-Reverte：法兰德斯棋盘</a></li>
+      <li><time datetime="2008-08-29">2008-08-29</time><a href="/archives/1550">苏云峰：从清华学堂到清华大学</a></li>
+      <li><time datetime="2008-08-27">2008-08-27</time><a href="/archives/1543">风火搬家之流水账</a></li>
+      <li><time datetime="2008-08-27">2008-08-27</time><a href="/archives/1538">张小娴：红颜露水</a></li>
+      <li><time datetime="2008-08-26">2008-08-26</time><a href="/archives/1531">Hrabal, Bohumil: Too Loud a Solitude</a></li>
+      <li><time datetime="2008-08-24">2008-08-24</time><a href="/archives/1523">Los Altos 周末书市</a></li>
+      <li><time datetime="2008-08-23">2008-08-23</time><a href="/archives/1515">1937年中国知识界（马嘶）</a></li>
+      <li><time datetime="2008-08-21">2008-08-21</time><a href="/archives/1503">搬家记之准备篇</a></li>
+      <li><time datetime="2008-08-19">2008-08-19</time><a href="/archives/1481">搬家记之看房篇</a></li>
+      <li><time datetime="2008-08-12">2008-08-12</time><a href="/archives/1464">遇罗文：我家</a></li>
+      <li><time datetime="2008-08-10">2008-08-10</time><a href="/archives/1459">8月 Palo Alto 购书所获</a></li>
+      <li><time datetime="2008-08-09">2008-08-09</time><a href="/archives/1455">狂欢，亦疯狂</a></li>
+      <li><time datetime="2008-08-06">2008-08-06</time><a href="/archives/1433">黄河青山——黄仁宇回忆录</a></li>
+      <li><time datetime="2008-08-04">2008-08-04</time><a href="/archives/1426">水晶金字塔（岛田庄司）</a></li>
+      <li><time datetime="2008-07-28">2008-07-28</time><a href="/archives/1421">小姨多鹤（严歌苓）</a></li>
+      <li><time datetime="2008-07-16">2008-07-16</time><a href="/archives/1420">杭州淘书侧记（3）</a></li>
+      <li><time datetime="2008-07-14">2008-07-14</time><a href="/archives/1419">知道（沈昌文口述自传）</a></li>
+      <li><time datetime="2008-07-05">2008-07-05</time><a href="/archives/1417">忙与盲</a></li>
+      <li><time datetime="2008-06-28">2008-06-28</time><a href="/archives/1416">访问历史——三十位中国知识人的笑声泪影（李怀宇）</a></li>
+      <li><time datetime="2008-06-12">2008-06-12</time><a href="/archives/1414">2008年IMPAC文学奖</a></li>
+      <li><time datetime="2008-06-11">2008-06-11</time><a href="/archives/1413">青春·北大（胡伯威）</a></li>
+      <li><time datetime="2008-06-06">2008-06-06</time><a href="/archives/1412">脏话文化史（Ruth Wajnryb）</a></li>
+      <li><time datetime="2008-06-04">2008-06-04</time><a href="/archives/1411">杭州淘书侧记（2）</a></li>
+      <li><time datetime="2008-06-04">2008-06-04</time><a href="/archives/1410">2008年橙橘奖（the Orange Prize）</a></li>
+      <li><time datetime="2008-06-03">2008-06-03</time><a href="/archives/1409">银元时代生活史（陈存仁）</a></li>
+      <li><time datetime="2008-06-01">2008-06-01</time><a href="/archives/1408">病急乱投医·争先恐后</a></li>
+      <li><time datetime="2008-05-24">2008-05-24</time><a href="/archives/1407">负笈燕园（马嘶）</a></li>
+      <li><time datetime="2008-05-15">2008-05-15</time><a href="/archives/1406">中国独立纪录片档案</a></li>
+      <li><time datetime="2008-05-14">2008-05-14</time><a href="/archives/1405">初夏的疼痛</a></li>
+      <li><time datetime="2008-05-09">2008-05-09</time><a href="/archives/1404">杭州淘书侧记（1）</a></li>
+      <li><time datetime="2008-04-27">2008-04-27</time><a href="/archives/1403">余烬（Sandor Marai）</a></li>
+      <li><time datetime="2008-04-26">2008-04-26</time><a href="/archives/1402">三本回忆录</a></li>
+      <li><time datetime="2008-04-26">2008-04-26</time><a href="/archives/1401">In the Wake (Per Petterson)</a></li>
+      <li><time datetime="2008-04-24">2008-04-24</time><a href="/archives/1400">姐姐的守护者（Jodi Picoult）</a></li>
+      <li><time datetime="2008-04-21">2008-04-21</time><a href="/archives/1399">他们的岁月（彭小莲）</a></li>
+      <li><time datetime="2008-04-19">2008-04-19</time><a href="/archives/1398">抄书之五</a></li>
+      <li><time datetime="2008-04-18">2008-04-18</time><a href="/archives/1397">抄书之四</a></li>
+      <li><time datetime="2008-04-18">2008-04-18</time><a href="/archives/1396">抄书之三</a></li>
+      <li><time datetime="2008-04-16">2008-04-16</time><a href="/archives/1395">学以致用的迷思</a></li>
+      <li><time datetime="2008-04-15">2008-04-15</time><a href="/archives/1394">囚禁在“美国梦”里的珊尔达·菲次杰拉德</a></li>
+      <li><time datetime="2008-04-15">2008-04-15</time><a href="/archives/1393">灵魂拥抱（侯文詠）</a></li>
+      <li><time datetime="2008-04-14">2008-04-14</time><a href="/archives/1392">继续抄书</a></li>
+      <li><time datetime="2008-04-13">2008-04-13</time><a href="/archives/1390">漫画 DIY</a></li>
+      <li><time datetime="2008-04-13">2008-04-13</time><a href="/archives/1388">糊涂周末</a></li>
+      <li><time datetime="2008-04-12">2008-04-12</time><a href="/archives/1386">4月 Palo Alto 买旧书</a></li>
+      <li><time datetime="2008-04-12">2008-04-12</time><a href="/archives/1385">矛盾的命题</a></li>
+      <li><time datetime="2008-04-10">2008-04-10</time><a href="/archives/1384">Deluxe (Dana Thomas)</a></li>
+      <li><time datetime="2008-04-09">2008-04-09</time><a href="/archives/1383">一天流水账</a></li>
+      <li><time datetime="2008-04-08">2008-04-08</time><a href="/archives/1382">2008 美国普利策奖</a></li>
+      <li><time datetime="2008-04-07">2008-04-07</time><a href="/archives/1381">历史悲歌（李辉）</a></li>
+      <li><time datetime="2008-04-04">2008-04-04</time><a href="/archives/1380">两本传记</a></li>
+      <li><time datetime="2008-04-02">2008-04-02</time><a href="/archives/1379">Impac 文学奖入围揭晓</a></li>
+      <li><time datetime="2008-04-01">2008-04-01</time><a href="/archives/1377">春日里一抹深蓝</a></li>
+      <li><time datetime="2008-03-27">2008-03-27</time><a href="/archives/1375">封面中国（李辉）</a></li>
+      <li><time datetime="2008-03-25">2008-03-25</time><a href="/archives/1374">毕竟是书生（周一良）</a></li>
+      <li><time datetime="2008-03-24">2008-03-24</time><a href="/archives/1373">11个我与城堡（Robert B. Oxnam）</a></li>
+      <li><time datetime="2008-03-21">2008-03-21</time><a href="/archives/1372">五十年文坛亲历记（涂光群）</a></li>
+      <li><time datetime="2008-03-20">2008-03-20</time><a href="/archives/1371">作家的感情生活</a></li>
+      <li><time datetime="2008-03-17">2008-03-17</time><a href="/archives/1370">东躲西藏</a></li>
+      <li><time datetime="2008-03-17">2008-03-17</time><a href="/archives/1369">周末·书·影</a></li>
+      <li><time datetime="2008-03-16">2008-03-16</time><a href="/archives/1368">小说之前瞻</a></li>
+      <li><time datetime="2008-03-12">2008-03-12</time><a href="/archives/1367">时代的“不”伐</a></li>
+      <li><time datetime="2008-03-12">2008-03-12</time><a href="/archives/1366">病榻杂记（季羡林）</a></li>
+      <li><time datetime="2008-03-10">2008-03-10</time><a href="/archives/1365">当天使穿着黑衣出现（Nathaniel Lachenmeyer）</a></li>
+      <li><time datetime="2008-03-09">2008-03-09</time><a href="/archives/1364">三月 Palo Alto 购书</a></li>
+      <li><time datetime="2008-03-09">2008-03-09</time><a href="/archives/1363">逝去的年代（谢泳）</a></li>
+      <li><time datetime="2008-03-08">2008-03-08</time><a href="/archives/1362">今年的美国书评奖</a></li>
+      <li><time datetime="2008-03-07">2008-03-07</time><a href="/archives/1361">中国（安东尼奥尼）</a></li>
+      <li><time datetime="2008-03-05">2008-03-05</time><a href="/archives/1360">更名</a></li>
+      <li><time datetime="2008-03-05">2008-03-05</time><a href="/archives/1359">Finding Iris Chang (Paula Kamen)</a></li>
+      <li><time datetime="2008-03-03">2008-03-03</time><a href="/archives/1358">杂书过眼录（谢泳）</a></li>
+      <li><time datetime="2008-03-02">2008-03-02</time><a href="/archives/1356">讲座笔记：汉字简化和政治</a></li>
+      <li><time datetime="2008-02-26">2008-02-26</time><a href="/archives/1354">讽刺</a></li>
+      <li><time datetime="2008-02-25">2008-02-25</time><a href="/archives/1353">周末读书小记</a></li>
+      <li><time datetime="2008-02-25">2008-02-25</time><a href="/archives/1352">奥斯卡，惨淡如此</a></li>
+      <li><time datetime="2008-02-21">2008-02-21</time><a href="/archives/1351">Homecoming (Bernhard Schlink)</a></li>
+      <li><time datetime="2008-02-19">2008-02-19</time><a href="/archives/1350">苏珊·桑塔格：如她的独特和真实</a></li>
+      <li><time datetime="2008-02-18">2008-02-18</time><a href="/archives/1337">读书小记（Feb.4-Feb.18）</a></li>
+      <li><time datetime="2008-02-18">2008-02-18</time><a href="/archives/1349">二月Cupertino购书</a></li>
+      <li><time datetime="2008-02-17">2008-02-17</time><a href="/archives/1348">黑猩猩和数字记忆</a></li>
+      <li><time datetime="2008-02-17">2008-02-17</time><a href="/archives/1343">冬后第一次春游，海上日落</a></li>
+      <li><time datetime="2008-02-14">2008-02-14</time><a href="/archives/1342">The Diving Bell and the Butterfly</a></li>
+      <li><time datetime="2008-02-13">2008-02-13</time><a href="/archives/1341">侯文詠的磁力</a></li>
+      <li><time datetime="2008-02-13">2008-02-13</time><a href="/archives/1340">科学、妄信、及滥用</a></li>
+      <li><time datetime="2008-02-09">2008-02-09</time><a href="/archives/1339">二月Palo Alto购旧书</a></li>
+      <li><time datetime="2008-02-09">2008-02-09</time><a href="/archives/1338">关于男人</a></li>
+      <li><time datetime="2008-02-07">2008-02-07</time><a href="/archives/1336">沈从文与丁玲（李辉）</a></li>
+      <li><time datetime="2008-02-06">2008-02-06</time><a href="/archives/1335">张爱玲与赖雅（司马新）</a></li>
+      <li><time datetime="2008-02-05">2008-02-05</time><a href="/archives/1334">也许老了</a></li>
+      <li><time datetime="2008-02-05">2008-02-05</time><a href="/archives/1333">万历十五年（黄仁宇）</a></li>
+      <li><time datetime="2008-02-04">2008-02-04</time><a href="/archives/1332">追风筝的孩子The Kite Runner（Khaled Hosseini）</a></li>
+      <li><time datetime="2008-02-03">2008-02-03</time><a href="/archives/1330">读书小记（Jan.27-Feb.3）</a></li>
+      <li><time datetime="2008-02-02">2008-02-02</time><a href="/archives/1331">偷书贼（Markus ZUSAK）</a></li>
+      <li><time datetime="2008-01-30">2008-01-30</time><a href="/archives/1329">一月Los Altos购书小记</a></li>
+      <li><time datetime="2008-01-26">2008-01-26</time><a href="/archives/1328">康宁汉舞团|读书小记（Jan.20-26）</a></li>
+      <li><time datetime="2008-01-26">2008-01-26</time><a href="/archives/1327">Little Heathens (Mildred Armstrong Kalish)</a></li>
+      <li><time datetime="2008-01-23">2008-01-23</time><a href="/archives/1326">Diary of a Bad Year (J.M.Coetzee)</a></li>
+      <li><time datetime="2008-01-20">2008-01-20</time><a href="/archives/1324">打着“科学”的旗帜，鞭尸</a></li>
+      <li><time datetime="2008-01-18">2008-01-18</time><a href="/archives/1323">Fire in the Blood（Irene Nemirovsky）</a></li>
+      <li><time datetime="2008-01-17">2008-01-17</time><a href="/archives/1322">读书小记（Jan.12-17）</a></li>
+      <li><time datetime="2008-01-16">2008-01-16</time><a href="/archives/1321">风之影（Carlos Ruiz Zafon）</a></li>
+      <li><time datetime="2008-01-15">2008-01-15</time><a href="/archives/1320">歧视人的胶带纸</a></li>
+      <li><time datetime="2008-01-14">2008-01-14</time><a href="/archives/1319">一月Palo Alto购书</a></li>
+      <li><time datetime="2008-01-13">2008-01-13</time><a href="/archives/1318">借书记──文化与图书馆</a></li>
+      <li><time datetime="2008-01-11">2008-01-11</time><a href="/archives/1317">诗意的温暖──黑眼圈（蔡明亮）</a></li>
+      <li><time datetime="2008-01-10">2008-01-10</time><a href="/archives/1316">The Savior (Eugene Drucker)</a></li>
+      <li><time datetime="2008-01-08">2008-01-08</time><a href="/archives/1314">旧事·书影</a></li>
+      <li><time datetime="2008-01-07">2008-01-07</time><a href="/archives/1313">自私的基因（Richard Dawkins）</a></li>
+      <li><time datetime="2008-01-05">2008-01-05</time><a href="/archives/1311">搜索的轮盘</a></li>
+      <li><time datetime="2008-01-04">2008-01-04</time><a href="/archives/1310">风雨天，家中</a></li>
+      <li><time datetime="2008-01-03">2008-01-03</time><a href="/archives/1309">擦肩而过（林怀民）</a></li>
+      <li><time datetime="2008-01-03">2008-01-03</time><a href="/archives/1308">杂书罗列</a></li>
+      <li><time datetime="2008-01-02">2008-01-02</time><a href="/archives/1307">乡土中国与乡土重建（费孝通）</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2007">
+      <h2>2007 <span>242</span></h2>
+      <ul>
+      <li><time datetime="2007-12-31">2007-12-31</time><a href="/archives/1306">新年倒数</a></li>
+      <li><time datetime="2007-12-31">2007-12-31</time><a href="/archives/1302">近观奢侈，Maria Antoinette及其他</a></li>
+      <li><time datetime="2007-12-30">2007-12-30</time><a href="/archives/1301">Old Europe.New Europe.Core Europe</a></li>
+      <li><time datetime="2007-12-27">2007-12-27</time><a href="/archives/1290">Maui片忆后 碎语流影</a></li>
+      <li><time datetime="2007-12-27">2007-12-27</time><a href="/archives/1275">Maui片忆之 恋恋沙滩、初玩浮潜</a></li>
+      <li><time datetime="2007-12-27">2007-12-27</time><a href="/archives/1274">Maui片忆之 甘蔗和糖、’Iao怀古</a></li>
+      <li><time datetime="2007-12-26">2007-12-26</time><a href="/archives/1284">4 Months 3 Weeks and 2 Days / Juno</a></li>
+      <li><time datetime="2007-12-25">2007-12-25</time><a href="/archives/1282">平安夜·圣诞</a></li>
+      <li><time datetime="2007-12-24">2007-12-24</time><a href="/archives/1283">《信》《白夜行》（东野圭吾）</a></li>
+      <li><time datetime="2007-12-20">2007-12-20</time><a href="/archives/1280">搜索关键字</a></li>
+      <li><time datetime="2007-12-19">2007-12-19</time><a href="/archives/1277">两张照片</a></li>
+      <li><time datetime="2007-12-19">2007-12-19</time><a href="/archives/1276">阴天的黄昏</a></li>
+      <li><time datetime="2007-12-18">2007-12-18</time><a href="/archives/1273">纽约时报评出的2007年度十大好书</a></li>
+      <li><time datetime="2007-12-16">2007-12-16</time><a href="/archives/1263">Maui片忆之 海崖山路、险幽探景</a></li>
+      <li><time datetime="2007-12-15">2007-12-15</time><a href="/archives/1262">错乱的“规则”──《迷失北京》（又名《苹果》）</a></li>
+      <li><time datetime="2007-12-13">2007-12-13</time><a href="/archives/1261">火警“闹”剧</a></li>
+      <li><time datetime="2007-12-11">2007-12-11</time><a href="/archives/1260">近期读的一些书</a></li>
+      <li><time datetime="2007-12-10">2007-12-10</time><a href="/archives/1259">Facebook</a></li>
+      <li><time datetime="2007-12-10">2007-12-10</time><a href="/archives/1254">Maui片忆之 Lu’au、乡味</a></li>
+      <li><time datetime="2007-12-08">2007-12-08</time><a href="/archives/1253">夜猫子惨遇半夜停电</a></li>
+      <li><time datetime="2007-12-07">2007-12-07</time><a href="/archives/1247">Maui片忆之 日出、Haleakala火山</a></li>
+      <li><time datetime="2007-12-07">2007-12-07</time><a href="/archives/1246">也是风雨也是晴──Maui片忆</a></li>
+      <li><time datetime="2007-12-05">2007-12-05</time><a href="/archives/1245">野回来了</a></li>
+      <li><time datetime="2007-11-26">2007-11-26</time><a href="/archives/1244">出发前……</a></li>
+      <li><time datetime="2007-11-25">2007-11-25</time><a href="/archives/1243">艾尔玛·蕾维尔：电影巨匠背后被遗忘的伴侣</a></li>
+      <li><time datetime="2007-11-20">2007-11-20</time><a href="/archives/1242">《恶意》《毕业前的杀人游戏》（东野圭吾）</a></li>
+      <li><time datetime="2007-11-17">2007-11-17</time><a href="/archives/1241">过节</a></li>
+      <li><time datetime="2007-11-15">2007-11-15</time><a href="/archives/1240">两桩和物理有关的糗事</a></li>
+      <li><time datetime="2007-11-15">2007-11-15</time><a href="/archives/1239">奥地利Michael Haneke的电影（续）</a></li>
+      <li><time datetime="2007-11-14">2007-11-14</time><a href="/archives/1238">中国文论（宇文所安）</a></li>
+      <li><time datetime="2007-11-12">2007-11-12</time><a href="/archives/1237">法国龚固文学奖</a></li>
+      <li><time datetime="2007-11-11">2007-11-11</time><a href="/archives/1236">累读，浆糊</a></li>
+      <li><time datetime="2007-11-08">2007-11-08</time><a href="/archives/1235">埃莉诺·罗斯福：落入凡间的丑小鸭天使</a></li>
+      <li><time datetime="2007-11-02">2007-11-02</time><a href="/archives/1234">Michael Haneke的电影</a></li>
+      <li><time datetime="2007-10-31">2007-10-31</time><a href="/archives/1233">从“阳光灿烂”到《太阳照常升起》</a></li>
+      <li><time datetime="2007-10-30">2007-10-30</time><a href="/archives/1232">惊魂后定</a></li>
+      <li><time datetime="2007-10-29">2007-10-29</time><a href="/archives/1231">Exit Ghost (Philip Roth)</a></li>
+      <li><time datetime="2007-10-27">2007-10-27</time><a href="/archives/1230">台湾念真情之寻找台湾角落（吴念真）</a></li>
+      <li><time datetime="2007-10-26">2007-10-26</time><a href="/archives/1229">My Time With Antonioni (Wim Wenders)</a></li>
+      <li><time datetime="2007-10-25">2007-10-25</time><a href="/archives/1228">Conversations With Woody Allen（Eric Lax）</a></li>
+      <li><time datetime="2007-10-24">2007-10-24</time><a href="/archives/1227">艾柯的新书 On Ugliness</a></li>
+      <li><time datetime="2007-10-23">2007-10-23</time><a href="/archives/1226">读书，囫囵吞枣</a></li>
+      <li><time datetime="2007-10-23">2007-10-23</time><a href="/archives/1225">来去匆匆，帕慕克</a></li>
+      <li><time datetime="2007-10-19">2007-10-19</time><a href="/archives/1224">宠坏</a></li>
+      <li><time datetime="2007-10-18">2007-10-18</time><a href="/archives/1223">Mister Pip (Lloyd Jones)</a></li>
+      <li><time datetime="2007-10-16">2007-10-16</time><a href="/archives/1222">今年的布克奖揭晓：Anne Enright’s “The Gathering”</a></li>
+      <li><time datetime="2007-10-15">2007-10-15</time><a href="/archives/1221">Disgrace (J.M.Coetzee)</a></li>
+      <li><time datetime="2007-10-12">2007-10-12</time><a href="/archives/1219">乱弹李安《色，戒》</a></li>
+      <li><time datetime="2007-10-11">2007-10-11</time><a href="/archives/1218">Doris Lessing won Nobel Prize in Literature 2007</a></li>
+      <li><time datetime="2007-10-09">2007-10-09</time><a href="/archives/1217">Flicks</a></li>
+      <li><time datetime="2007-10-08">2007-10-08</time><a href="/archives/1216">Enrique’s Journey (Sonia Nazario)</a></li>
+      <li><time datetime="2007-10-07">2007-10-07</time><a href="/archives/1214">八大胡同捌章（肖复兴）</a></li>
+      <li><time datetime="2007-10-06">2007-10-06</time><a href="/archives/1212">Political Fictions (Joan Didion)</a></li>
+      <li><time datetime="2007-10-04">2007-10-04</time><a href="/archives/1207">两本逸情小书《唐人街》《巴黎的瞬间》</a></li>
+      <li><time datetime="2007-10-03">2007-10-03</time><a href="/archives/1206">国人的服务续三</a></li>
+      <li><time datetime="2007-10-02">2007-10-02</time><a href="/archives/1204">On Chesil Beach (Ian McEwan)</a></li>
+      <li><time datetime="2007-09-30">2007-09-30</time><a href="/archives/1200">安东尼奥尼</a></li>
+      <li><time datetime="2007-09-30">2007-09-30</time><a href="/archives/1199">《色，戒》里的“戏”（张爱玲）</a></li>
+      <li><time datetime="2007-09-29">2007-09-29</time><a href="/archives/1196">Generation Me (Jean M. Twenge)</a></li>
+      <li><time datetime="2007-09-26">2007-09-26</time><a href="/archives/1194">Out Stealing Horses (Per Petterson)</a></li>
+      <li><time datetime="2007-09-24">2007-09-24</time><a href="/archives/1190">一本书，两部电影</a></li>
+      <li><time datetime="2007-09-23">2007-09-23</time><a href="/archives/1182">旧金山，饕餮</a></li>
+      <li><time datetime="2007-09-20">2007-09-20</time><a href="/archives/1180">Oracle Bones (Peter Hessler)</a></li>
+      <li><time datetime="2007-09-18">2007-09-18</time><a href="/archives/1178">Miguel Street (V.S.Naipaul)</a></li>
+      <li><time datetime="2007-09-17">2007-09-17</time><a href="/archives/1176">冰冷密室与博士们（森博嗣）</a></li>
+      <li><time datetime="2007-09-16">2007-09-16</time><a href="/archives/1172">周末，沉迷森博嗣</a></li>
+      <li><time datetime="2007-09-15">2007-09-15</time><a href="/archives/1170">旧金山的城市之光</a></li>
+      <li><time datetime="2007-09-15">2007-09-15</time><a href="/archives/1169">Edith Piaf</a></li>
+      <li><time datetime="2007-09-14">2007-09-14</time><a href="/archives/1166">诗般的杀意（森博嗣）</a></li>
+      <li><time datetime="2007-09-13">2007-09-13</time><a href="/archives/1164">不会笑的数学家（森博嗣）</a></li>
+      <li><time datetime="2007-09-10">2007-09-10</time><a href="/archives/1163">顺长江，水流残月（章诒和）</a></li>
+      <li><time datetime="2007-09-09">2007-09-09</time><a href="/archives/1160">周末杂记</a></li>
+      <li><time datetime="2007-09-06">2007-09-06</time><a href="/archives/1157">草木春秋（汪曾祺）</a></li>
+      <li><time datetime="2007-09-05">2007-09-05</time><a href="/archives/1156">The Odyssey of Shen Congwen (Jeffrey C. Kinkley)</a></li>
+      <li><time datetime="2007-09-03">2007-09-03</time><a href="/archives/1154">错置体（蓝霄）</a></li>
+      <li><time datetime="2007-09-03">2007-09-03</time><a href="/archives/1152">光与影（蓝霄）</a></li>
+      <li><time datetime="2007-08-31">2007-08-31</time><a href="/archives/1149">秘密（东野圭吾）</a></li>
+      <li><time datetime="2007-08-30">2007-08-30</time><a href="/archives/1148">国人的服务后续</a></li>
+      <li><time datetime="2007-08-29">2007-08-29</time><a href="/archives/1147">国人的服务</a></li>
+      <li><time datetime="2007-08-29">2007-08-29</time><a href="/archives/1145">天狗面具（土屋隆夫）</a></li>
+      <li><time datetime="2007-08-28">2007-08-28</time><a href="/archives/1144">鬼吹灯（天下霸唱）</a></li>
+      <li><time datetime="2007-08-28">2007-08-28</time><a href="/archives/1135">月全食</a></li>
+      <li><time datetime="2007-08-25">2007-08-25</time><a href="/archives/1133">买书成瘾</a></li>
+      <li><time datetime="2007-08-25">2007-08-25</time><a href="/archives/1132">茱萸集（汪曾祺）</a></li>
+      <li><time datetime="2007-08-22">2007-08-22</time><a href="/archives/1130">Mere Anarchy (Woody Allen)</a></li>
+      <li><time datetime="2007-08-21">2007-08-21</time><a href="/archives/1128">坐在山谷里看书</a></li>
+      <li><time datetime="2007-08-19">2007-08-19</time><a href="/archives/1125">一阵风，留下了千古绝唱（章诒和）</a></li>
+      <li><time datetime="2007-08-17">2007-08-17</time><a href="/archives/1117">看图说话（1）</a></li>
+      <li><time datetime="2007-08-16">2007-08-16</time><a href="/archives/1112">记忆、犯罪、救赎──有关《谍影重重3》</a></li>
+      <li><time datetime="2007-08-16">2007-08-16</time><a href="/archives/1111">最后的贵族（章诒和）</a></li>
+      <li><time datetime="2007-08-15">2007-08-15</time><a href="/archives/1108">Travels in the Scriptorium (Paul Auster)</a></li>
+      <li><time datetime="2007-08-12">2007-08-12</time><a href="/archives/1107">围城（钱钟书）</a></li>
+      <li><time datetime="2007-08-09">2007-08-09</time><a href="/archives/1103">两本小书</a></li>
+      <li><time datetime="2007-08-07">2007-08-07</time><a href="/archives/1099">进城溜达，逛美术馆，买中文书</a></li>
+      <li><time datetime="2007-08-06">2007-08-06</time><a href="/archives/1098">铁皮鼓（Die Blechtrommel by Günter Grass）</a></li>
+      <li><time datetime="2007-08-05">2007-08-05</time><a href="/archives/1084">莎士比亚下乡演出</a></li>
+      <li><time datetime="2007-08-04">2007-08-04</time><a href="/archives/1082">南非之南（恺蒂）</a></li>
+      <li><time datetime="2007-08-03">2007-08-03</time><a href="/archives/1081">蒸发（夏树静子）</a></li>
+      <li><time datetime="2007-08-01">2007-08-01</time><a href="/archives/1078">隐逸的诱惑，《追忆》</a></li>
+      <li><time datetime="2007-07-27">2007-07-27</time><a href="/archives/1076">Peeling the Onion (Günter Grass)</a></li>
+      <li><time datetime="2007-07-26">2007-07-26</time><a href="/archives/1075">月光游戏（有栖川有栖）</a></li>
+      <li><time datetime="2007-07-24">2007-07-24</time><a href="/archives/1073">另一种乡愁（马悦然）</a></li>
+      <li><time datetime="2007-07-24">2007-07-24</time><a href="/archives/1072">奥地利女作家Elfriede Jelinek的新小说《嫉妒》Neid</a></li>
+      <li><time datetime="2007-07-23">2007-07-23</time><a href="/archives/1070">马来铁道之谜（有栖川有栖）</a></li>
+      <li><time datetime="2007-07-21">2007-07-21</time><a href="/archives/1068">The Bookseller of Kabul (Asne Seierstad)</a></li>
+      <li><time datetime="2007-07-19">2007-07-19</time><a href="/archives/1067">没有饭吃，可以吃肉</a></li>
+      <li><time datetime="2007-07-17">2007-07-17</time><a href="/archives/1065">A Mighty Heart (Mariane Pearl)</a></li>
+      <li><time datetime="2007-07-15">2007-07-15</time><a href="/archives/1064">体香、凝望延安（赵凝）</a></li>
+      <li><time datetime="2007-07-14">2007-07-14</time><a href="/archives/1060">玩了一天</a></li>
+      <li><time datetime="2007-07-12">2007-07-12</time><a href="/archives/1058">Edith Piaf 的传记</a></li>
+      <li><time datetime="2007-07-07">2007-07-07</time><a href="/archives/1046">夏日，女性小传</a></li>
+      <li><time datetime="2007-07-06">2007-07-06</time><a href="/archives/1045">废名与莫须有先生</a></li>
+      <li><time datetime="2007-07-04">2007-07-04</time><a href="/archives/1042">The Mistress’s Daughter (A.M.Homes)</a></li>
+      <li><time datetime="2007-07-02">2007-07-02</time><a href="/archives/1015">一个人的奇遇，在纽约</a></li>
+      <li><time datetime="2007-07-01">2007-07-01</time><a href="/archives/1016">市井江湖之流氓世家（完颜绍元）</a></li>
+      <li><time datetime="2007-06-21">2007-06-21</time><a href="/archives/1013">意料中的游戏——Ocean’s 13</a></li>
+      <li><time datetime="2007-06-20">2007-06-20</time><a href="/archives/1010">鱼丽之宴（木心）</a></li>
+      <li><time datetime="2007-06-19">2007-06-19</time><a href="/archives/1007">朗读者（Bernhard Schlink）</a></li>
+      <li><time datetime="2007-06-18">2007-06-18</time><a href="/archives/1006">批萨</a></li>
+      <li><time datetime="2007-06-18">2007-06-18</time><a href="/archives/1004">时间</a></li>
+      <li><time datetime="2007-06-16">2007-06-16</time><a href="/archives/1001">藏</a></li>
+      <li><time datetime="2007-06-13">2007-06-13</time><a href="/archives/999">The Year of Magical Thinking (Joan Didion)</a></li>
+      <li><time datetime="2007-06-10">2007-06-10</time><a href="/archives/998">杂书·周末</a></li>
+      <li><time datetime="2007-06-07">2007-06-07</time><a href="/archives/996">Appetites:Why Women Want (Caroline Knapp)</a></li>
+      <li><time datetime="2007-06-07">2007-06-07</time><a href="/archives/994">如果生活像“派”一样简单</a></li>
+      <li><time datetime="2007-06-06">2007-06-06</time><a href="/archives/991">雷骧的散文</a></li>
+      <li><time datetime="2007-06-04">2007-06-04</time><a href="/archives/988">周末拾碎</a></li>
+      <li><time datetime="2007-06-01">2007-06-01</time><a href="/archives/985">Drinking:A Love Story (Caroline Knapp)</a></li>
+      <li><time datetime="2007-05-31">2007-05-31</time><a href="/archives/983">世界尽头的视听“飨宴”——观《加勒比海盗三》</a></li>
+      <li><time datetime="2007-05-29">2007-05-29</time><a href="/archives/981">上学记（何兆武）</a></li>
+      <li><time datetime="2007-05-28">2007-05-28</time><a href="/archives/980">浑浑噩噩的长周末</a></li>
+      <li><time datetime="2007-05-23">2007-05-23</time><a href="/archives/978">The Book of Illusions (Paul Auster)</a></li>
+      <li><time datetime="2007-05-21">2007-05-21</time><a href="/archives/976">小说稗类（张大春）</a></li>
+      <li><time datetime="2007-05-20">2007-05-20</time><a href="/archives/975">又到樱桃成熟时</a></li>
+      <li><time datetime="2007-05-18">2007-05-18</time><a href="/archives/972">二选一</a></li>
+      <li><time datetime="2007-05-18">2007-05-18</time><a href="/archives/970">顽皮故事集（侯文詠）</a></li>
+      <li><time datetime="2007-05-17">2007-05-17</time><a href="/archives/966">The Road (Cormac McCarthy)</a></li>
+      <li><time datetime="2007-05-16">2007-05-16</time><a href="/archives/962">书桌一角</a></li>
+      <li><time datetime="2007-05-16">2007-05-16</time><a href="/archives/960">猎人们（朱天心）</a></li>
+      <li><time datetime="2007-05-14">2007-05-14</time><a href="/archives/959">周末买书</a></li>
+      <li><time datetime="2007-05-12">2007-05-12</time><a href="/archives/954">游走在商业与艺术之间的温吞水——《图雅的婚事》</a></li>
+      <li><time datetime="2007-05-11">2007-05-11</time><a href="/archives/953">在旧金山看电影</a></li>
+      <li><time datetime="2007-05-09">2007-05-09</time><a href="/archives/951">Brødre/Brothers (Susanne Bier)</a></li>
+      <li><time datetime="2007-05-08">2007-05-08</time><a href="/archives/944">“瘸”腿看片</a></li>
+      <li><time datetime="2007-05-07">2007-05-07</time><a href="/archives/941">女子黃碧云</a></li>
+      <li><time datetime="2007-05-04">2007-05-04</time><a href="/archives/934">另一半（应亮）</a></li>
+      <li><time datetime="2007-05-04">2007-05-04</time><a href="/archives/929">懒懒的闲适</a></li>
+      <li><time datetime="2007-05-02">2007-05-02</time><a href="/archives/928">《闲笔生花》《我读我在》（林行止随笔集）</a></li>
+      <li><time datetime="2007-05-01">2007-05-01</time><a href="/archives/925">The U.S. vs. John Lennon</a></li>
+      <li><time datetime="2007-04-30">2007-04-30</time><a href="/archives/920">人，不是圣人——After the Wedding (Susanne Bier)</a></li>
+      <li><time datetime="2007-04-29">2007-04-29</time><a href="/archives/917">The Inheritance of Loss (Kiran Desai )</a></li>
+      <li><time datetime="2007-04-28">2007-04-28</time><a href="/archives/915">台北的美丽和忧伤（裴在美）</a></li>
+      <li><time datetime="2007-04-27">2007-04-27</time><a href="/archives/913">2007年美国普利策Pulitzer艺文奖揭晓</a></li>
+      <li><time datetime="2007-04-26">2007-04-26</time><a href="/archives/912">如果曹雪芹有饭吃……</a></li>
+      <li><time datetime="2007-04-24">2007-04-24</time><a href="/archives/911">Elephant Dung Paper</a></li>
+      <li><time datetime="2007-04-22">2007-04-22</time><a href="/archives/907">周末</a></li>
+      <li><time datetime="2007-04-19">2007-04-19</time><a href="/archives/905">阳性生殖崇拜的颠覆</a></li>
+      <li><time datetime="2007-04-19">2007-04-19</time><a href="/archives/903">A Pale View of Hills (Kazuo Ishiguro)</a></li>
+      <li><time datetime="2007-04-18">2007-04-18</time><a href="/archives/902">呓语</a></li>
+      <li><time datetime="2007-04-18">2007-04-18</time><a href="/archives/900">负暄琐话（张中行）</a></li>
+      <li><time datetime="2007-04-17">2007-04-17</time><a href="/archives/897">The Remains of the Day (Kazuo Ishiguro)</a></li>
+      <li><time datetime="2007-04-14">2007-04-14</time><a href="/archives/895">这样玩“烂片”——《疯人锯院》（Grindhouse）</a></li>
+      <li><time datetime="2007-04-14">2007-04-14</time><a href="/archives/889">名侦探的守则（东野圭吾）</a></li>
+      <li><time datetime="2007-04-13">2007-04-13</time><a href="/archives/887">纪录片《南京》Nanking（Bill Guttentag）</a></li>
+      <li><time datetime="2007-04-12">2007-04-12</time><a href="/archives/883">The Dead Beat (Marilyn Johnson)</a></li>
+      <li><time datetime="2007-04-11">2007-04-11</time><a href="/archives/881">The Haunted Bookshop (Christopher Morley)</a></li>
+      <li><time datetime="2007-04-10">2007-04-10</time><a href="/archives/880">笑</a></li>
+      <li><time datetime="2007-04-10">2007-04-10</time><a href="/archives/878">维多利亚俱乐部（施叔青）</a></li>
+      <li><time datetime="2007-04-05">2007-04-05</time><a href="/archives/876">Oracle Night (Paul Auster)</a></li>
+      <li><time datetime="2007-04-04">2007-04-04</time><a href="/archives/874">四月逛旧金山现代艺术博物馆（MoMA）</a></li>
+      <li><time datetime="2007-04-03">2007-04-03</time><a href="/archives/872">说来话儿长（林行止）</a></li>
+      <li><time datetime="2007-04-02">2007-04-02</time><a href="/archives/871">战火中的宁静——人生采访（萧乾）</a></li>
+      <li><time datetime="2007-04-01">2007-04-01</time><a href="/archives/869">如焉@sars.come（胡发云）</a></li>
+      <li><time datetime="2007-03-29">2007-03-29</time><a href="/archives/866">The Feast of Stephen (Rosemary Aubert)</a></li>
+      <li><time datetime="2007-03-27">2007-03-27</time><a href="/archives/864">看得见的鬼（李昂）</a></li>
+      <li><time datetime="2007-03-25">2007-03-25</time><a href="/archives/861">吴念真的散文和小说</a></li>
+      <li><time datetime="2007-03-22">2007-03-22</time><a href="/archives/860">选择题</a></li>
+      <li><time datetime="2007-03-22">2007-03-22</time><a href="/archives/858">Parnassus on Wheels (Christopher Morley)</a></li>
+      <li><time datetime="2007-03-21">2007-03-21</time><a href="/archives/857">2007年美国国家书评人奖揭晓</a></li>
+      <li><time datetime="2007-03-21">2007-03-21</time><a href="/archives/852">香港三部曲（施叔青）</a></li>
+      <li><time datetime="2007-03-20">2007-03-20</time><a href="/archives/849">火车上看的两本书</a></li>
+      <li><time datetime="2007-03-19">2007-03-19</time><a href="/archives/848">家里来了王子</a></li>
+      <li><time datetime="2007-03-19">2007-03-19</time><a href="/archives/843">第25届旧金山国际亚美电影节掠影——《Hollywood Chinese》(好莱坞的华人)</a></li>
+      <li><time datetime="2007-03-18">2007-03-18</time><a href="/archives/840">第25届旧金山国际亚美电影节掠影——《Ghosts》（鬼佬）</a></li>
+      <li><time datetime="2007-03-15">2007-03-15</time><a href="/archives/838">上海魔术师（虹影）</a></li>
+      <li><time datetime="2007-03-15">2007-03-15</time><a href="/archives/833">The Blue Flower (Penelope Fitzgerald)</a></li>
+      <li><time datetime="2007-03-14">2007-03-14</time><a href="/archives/831">火里凤凰（黄永玉）</a></li>
+      <li><time datetime="2007-03-12">2007-03-12</time><a href="/archives/829">黄永玉的柒柒捌捌</a></li>
+      <li><time datetime="2007-03-12">2007-03-12</time><a href="/archives/826">The Bookshop (Penelope Fitzgerald)</a></li>
+      <li><time datetime="2007-03-10">2007-03-10</time><a href="/archives/822">Gilead (Marilynne Robinson)</a></li>
+      <li><time datetime="2007-03-08">2007-03-08</time><a href="/archives/821">好笑不好笑的话</a></li>
+      <li><time datetime="2007-03-07">2007-03-07</time><a href="/archives/818">沿着塞纳河到翡冷翠（黄永玉著·绘）</a></li>
+      <li><time datetime="2007-03-06">2007-03-06</time><a href="/archives/815">画梦录（何其芳）</a></li>
+      <li><time datetime="2007-03-05">2007-03-05</time><a href="/archives/813">欧游杂记（朱自清）</a></li>
+      <li><time datetime="2007-03-04">2007-03-04</time><a href="/archives/811">蛤蟆的油——黑泽明自传</a></li>
+      <li><time datetime="2007-03-03">2007-03-03</time><a href="/archives/810">想起一位朋友</a></li>
+      <li><time datetime="2007-03-03">2007-03-03</time><a href="/archives/808">陈映真的小说</a></li>
+      <li><time datetime="2007-03-02">2007-03-02</time><a href="/archives/807">地震</a></li>
+      <li><time datetime="2007-02-27">2007-02-27</time><a href="/archives/805">迷园（李昂）</a></li>
+      <li><time datetime="2007-02-25">2007-02-25</time><a href="/archives/803">今年的奥斯卡</a></li>
+      <li><time datetime="2007-02-24">2007-02-24</time><a href="/archives/797">注定的悲剧——Leben der Anderen,Das (2006)</a></li>
+      <li><time datetime="2007-02-23">2007-02-23</time><a href="/archives/794">《暗夜》《杀父》（李昂）</a></li>
+      <li><time datetime="2007-02-23">2007-02-23</time><a href="/archives/791">暗香——中短篇小说珍藏本（韩少功）</a></li>
+      <li><time datetime="2007-02-22">2007-02-22</time><a href="/archives/790">考三个字</a></li>
+      <li><time datetime="2007-02-21">2007-02-21</time><a href="/archives/788">马桥词典（韩少功）</a></li>
+      <li><time datetime="2007-02-20">2007-02-20</time><a href="/archives/786">What have I done to deserve this!!（1984）by Almodóvar</a></li>
+      <li><time datetime="2007-02-18">2007-02-18</time><a href="/archives/784">《台湾玉》《微醺彩妆》（施叔青）</a></li>
+      <li><time datetime="2007-02-15">2007-02-15</time><a href="/archives/781">《寻人启事》《公寓导游》（张大春）</a></li>
+      <li><time datetime="2007-02-13">2007-02-13</time><a href="/archives/761">蔡明亮的减法——爱情万岁（1994）</a></li>
+      <li><time datetime="2007-02-13">2007-02-13</time><a href="/archives/759">Housekeeping《管家》by Marilynne Robinson</a></li>
+      <li><time datetime="2007-02-11">2007-02-11</time><a href="/archives/757">两地相思（王祯和）</a></li>
+      <li><time datetime="2007-02-10">2007-02-10</time><a href="/archives/752">John Pomfret 关于中国</a></li>
+      <li><time datetime="2007-02-08">2007-02-08</time><a href="/archives/750">In Cold Blood (Truman Capote)</a></li>
+      <li><time datetime="2007-02-07">2007-02-07</time><a href="/archives/747">伶人往事（章诒和）</a></li>
+      <li><time datetime="2007-02-04">2007-02-04</time><a href="/archives/744">困困中的胡言乱语</a></li>
+      <li><time datetime="2007-02-03">2007-02-03</time><a href="/archives/742">The Rape of Nanking（南京梦魇）by Dr.Rhawn Joseph</a></li>
+      <li><time datetime="2007-02-01">2007-02-01</time><a href="/archives/735">《玫瑰玫瑰我爱你》/《人生歌王》（王祯和）</a></li>
+      <li><time datetime="2007-01-31">2007-01-31</time><a href="/archives/730">Bad Education《不良教育》2004（Pedro Almodóvar 阿尔莫多瓦）</a></li>
+      <li><time datetime="2007-01-30">2007-01-30</time><a href="/archives/720">施叔青（短篇）集 / 三松堂漫记</a></li>
+      <li><time datetime="2007-01-30">2007-01-30</time><a href="/archives/721">Little Miss Sunshine（阳光小小姐）</a></li>
+      <li><time datetime="2007-01-27">2007-01-27</time><a href="/archives/718">A Thousand Years of Good Prayers《千年祈求》（李翊云）</a></li>
+      <li><time datetime="2007-01-25">2007-01-25</time><a href="/archives/715">王祯和短篇小说（集）《三春记》《来春姨悲秋》《嫁妆一牛车》</a></li>
+      <li><time datetime="2007-01-23">2007-01-23</time><a href="/archives/713">危险心灵（侯文詠）</a></li>
+      <li><time datetime="2007-01-22">2007-01-22</time><a href="/archives/710">《银城故事》《万里无云》（李锐）</a></li>
+      <li><time datetime="2007-01-20">2007-01-20</time><a href="/archives/706">旧址（李锐）</a></li>
+      <li><time datetime="2007-01-18">2007-01-18</time><a href="/archives/703">《厚土》《无风之树》（李锐）</a></li>
+      <li><time datetime="2007-01-17">2007-01-17</time><a href="/archives/701">初读李昂</a></li>
+      <li><time datetime="2007-01-17">2007-01-17</time><a href="/archives/700">美人图（王祯和）</a></li>
+      <li><time datetime="2007-01-15">2007-01-15</time><a href="/archives/698">张大春《饥饿》及其他</a></li>
+      <li><time datetime="2007-01-13">2007-01-13</time><a href="/archives/693">良友忆旧——一家画报与一个时代</a></li>
+      <li><time datetime="2007-01-13">2007-01-13</time><a href="/archives/692">遗落的经典？——《死水微澜》（李劼人）</a></li>
+      <li><time datetime="2007-01-12">2007-01-12</time><a href="/archives/686">沈从文家书（1930-1966 从文、兆和书信选）</a></li>
+      <li><time datetime="2007-01-11">2007-01-11</time><a href="/archives/682">沈从文别集之《湘行集》、《丈夫集》</a></li>
+      <li><time datetime="2007-01-09">2007-01-09</time><a href="/archives/681">小说的轻与重——日瓦戈医生（鲍里斯·帕斯捷尔纳克）</a></li>
+      <li><time datetime="2007-01-08">2007-01-08</time><a href="/archives/678">《面纱》&amp; Notes on a scandal</a></li>
+      <li><time datetime="2007-01-08">2007-01-08</time><a href="/archives/674">阿尔莫多瓦，仅剩下故事的《回归》</a></li>
+      <li><time datetime="2007-01-07">2007-01-07</time><a href="/archives/664">《黄河十四走》，美得太！——杨先让</a></li>
+      <li><time datetime="2007-01-05">2007-01-05</time><a href="/archives/659">读《从文自传》，和高行健</a></li>
+      <li><time datetime="2007-01-04">2007-01-04</time><a href="/archives/656">一个人的圣经——高行健</a></li>
+      <li><time datetime="2007-01-04">2007-01-04</time><a href="/archives/652">Anselm Kiefer——Heaven and Earth</a></li>
+      <li><time datetime="2007-01-03">2007-01-03</time><a href="/archives/650">声音与愤怒——摇滚乐可能改变世界吗？（张铁志）</a></li>
+      <li><time datetime="2007-01-01">2007-01-01</time><a href="/archives/647">年末看片小记</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2006">
+      <h2>2006 <span>308</span></h2>
+      <ul>
+      <li><time datetime="2006-12-31">2006-12-31</time><a href="/archives/644">《单恋》——东野圭吾</a></li>
+      <li><time datetime="2006-12-30">2006-12-30</time><a href="/archives/642">御手洗洁的问候——岛田庄司</a></li>
+      <li><time datetime="2006-12-30">2006-12-30</time><a href="/archives/639">大部头推理长篇《去问人头吧》&amp;《着魔》</a></li>
+      <li><time datetime="2006-12-29">2006-12-29</time><a href="/archives/633">人、自然、废墟——《三峡好人》贾樟柯 (2006)</a></li>
+      <li><time datetime="2006-12-28">2006-12-28</time><a href="/archives/630">短篇小说《欧阳子集》</a></li>
+      <li><time datetime="2006-12-27">2006-12-27</time><a href="/archives/626">The Brooklyn Follies，by Paul Auster</a></li>
+      <li><time datetime="2006-12-25">2006-12-25</time><a href="/archives/617">智慧、思辨，之《一一》</a></li>
+      <li><time datetime="2006-12-25">2006-12-25</time><a href="/archives/616">圣诞，2006</a></li>
+      <li><time datetime="2006-12-23">2006-12-23</time><a href="/archives/609">迷惘的孩子——Little Children (2006) by Todd Field</a></li>
+      <li><time datetime="2006-12-19">2006-12-19</time><a href="/archives/607">东藏记——宗璞</a></li>
+      <li><time datetime="2006-12-17">2006-12-17</time><a href="/archives/602">伊朗影片《天堂的孩子》（1997）</a></li>
+      <li><time datetime="2006-12-17">2006-12-17</time><a href="/archives/601">残酷的《新传说》——蒋勳</a></li>
+      <li><time datetime="2006-12-15">2006-12-15</time><a href="/archives/592">种树的男人 The Man Who Planted Trees by Jean Giono</a></li>
+      <li><time datetime="2006-12-13">2006-12-13</time><a href="/archives/588">爱情，《天边一朵云》</a></li>
+      <li><time datetime="2006-12-13">2006-12-13</time><a href="/archives/585">《比我老的老头》——黄永玉</a></li>
+      <li><time datetime="2006-12-13">2006-12-13</time><a href="/archives/583">写给年轻人的简明世界史——E.H.Gombrich</a></li>
+      <li><time datetime="2006-12-10">2006-12-10</time><a href="/archives/578">喜欢上蔡明亮，《青少年哪吒》</a></li>
+      <li><time datetime="2006-12-10">2006-12-10</time><a href="/archives/577">陈若曦《老人》、《城里城外》和《二胡》</a></li>
+      <li><time datetime="2006-12-09">2006-12-09</time><a href="/archives/576">武侠，过去的年代</a></li>
+      <li><time datetime="2006-12-09">2006-12-09</time><a href="/archives/570">父子，华语片的某种回归</a></li>
+      <li><time datetime="2006-12-07">2006-12-07</time><a href="/archives/569">几个购买中文书的网站</a></li>
+      <li><time datetime="2006-12-07">2006-12-07</time><a href="/archives/568">无聊，读书</a></li>
+      <li><time datetime="2006-12-06">2006-12-06</time><a href="/archives/566">浅读帕默克（5）——The New Life</a></li>
+      <li><time datetime="2006-12-04">2006-12-04</time><a href="/archives/565">本周看片小记（11.27-12.03）：《洞》及其他</a></li>
+      <li><time datetime="2006-12-03">2006-12-03</time><a href="/archives/563">龙卧亭杀人事件——岛田庄司</a></li>
+      <li><time datetime="2006-12-01">2006-12-01</time><a href="/archives/560">Morning Sun和Carma Hinton</a></li>
+      <li><time datetime="2006-11-30">2006-11-30</time><a href="/archives/559">陈若曦《纸婚》及其他</a></li>
+      <li><time datetime="2006-11-29">2006-11-29</time><a href="/archives/556">魔鬼出没的世界——卡尔·萨根</a></li>
+      <li><time datetime="2006-11-27">2006-11-27</time><a href="/archives/550">“平凡的邪恶”——Lacombe Lucien（1974） by Louis Malle</a></li>
+      <li><time datetime="2006-11-25">2006-11-25</time><a href="/archives/547">河流，蔡明亮</a></li>
+      <li><time datetime="2006-11-23">2006-11-23</time><a href="/archives/543">浅读帕默克（4）—— My Name Is Red</a></li>
+      <li><time datetime="2006-11-20">2006-11-20</time><a href="/archives/540">不看不知道 （Spoorloos &amp; Open Your Eyes）</a></li>
+      <li><time datetime="2006-11-19">2006-11-19</time><a href="/archives/539">一个关于战争的故事</a></li>
+      <li><time datetime="2006-11-18">2006-11-18</time><a href="/archives/538">高行健和《灵山》</a></li>
+      <li><time datetime="2006-11-17">2006-11-17</time><a href="/archives/534">Murmur of the Heart (1971), by Loius Malle</a></li>
+      <li><time datetime="2006-11-17">2006-11-17</time><a href="/archives/533">湾区、秋</a></li>
+      <li><time datetime="2006-11-16">2006-11-16</time><a href="/archives/531">圣奥斯拉修道院的悲剧——二阶堂黎人</a></li>
+      <li><time datetime="2006-11-15">2006-11-15</time><a href="/archives/523">Au Revoir, Les Enfants, by Loius Malle</a></li>
+      <li><time datetime="2006-11-15">2006-11-15</time><a href="/archives/516">今日看片：《唐人街》《水》</a></li>
+      <li><time datetime="2006-11-14">2006-11-14</time><a href="/archives/511">语言和身份认同：Koryo Saram——the Unreliable People</a></li>
+      <li><time datetime="2006-11-14">2006-11-14</time><a href="/archives/509">Keep Walking, by Ermanno Olmi</a></li>
+      <li><time datetime="2006-11-13">2006-11-13</time><a href="/archives/505">Posto, Il (a.k.a The Job, 1961) by Ermanno Olmi</a></li>
+      <li><time datetime="2006-11-13">2006-11-13</time><a href="/archives/488">布鲁克林的孤儿 by Jonathan Lethem</a></li>
+      <li><time datetime="2006-11-12">2006-11-12</time><a href="/archives/486">王小帅《二弟》</a></li>
+      <li><time datetime="2006-11-10">2006-11-10</time><a href="/archives/482">黄春明的乡土小说</a></li>
+      <li><time datetime="2006-11-09">2006-11-09</time><a href="/archives/481">陈若曦《文革杂忆》</a></li>
+      <li><time datetime="2006-11-08">2006-11-08</time><a href="/archives/479">浅读帕默克（3）——The White Castle</a></li>
+      <li><time datetime="2006-11-07">2006-11-07</time><a href="/archives/477">The Tree of Wooden Clogs</a></li>
+      <li><time datetime="2006-11-06">2006-11-06</time><a href="/archives/474">浅读帕默克（2）——Snow</a></li>
+      <li><time datetime="2006-11-06">2006-11-06</time><a href="/archives/472">浅读帕默克（1）——Istanbul: Memories of a City</a></li>
+      <li><time datetime="2006-11-06">2006-11-06</time><a href="/archives/467">作者阿城</a></li>
+      <li><time datetime="2006-11-02">2006-11-02</time><a href="/archives/465">All about My Mother</a></li>
+      <li><time datetime="2006-11-01">2006-11-01</time><a href="/archives/464">海外华人写作</a></li>
+      <li><time datetime="2006-11-01">2006-11-01</time><a href="/archives/463">诺贝尔效应</a></li>
+      <li><time datetime="2006-10-31">2006-10-31</time><a href="/archives/462">City of Lost Children和Jean-Pierre Jeunet</a></li>
+      <li><time datetime="2006-10-30">2006-10-30</time><a href="/archives/458">UNAFF 2006: 9th United Nations Association Film Festival (5)</a></li>
+      <li><time datetime="2006-10-29">2006-10-29</time><a href="/archives/447">UNAFF 2006: 9th United Nations Association Film Festival (4)</a></li>
+      <li><time datetime="2006-10-28">2006-10-28</time><a href="/archives/439">UNAFF 2006: 9th United Nations Association Film Festival (3)</a></li>
+      <li><time datetime="2006-10-27">2006-10-27</time><a href="/archives/432">UNAFF 2006: 9th United Nations Association Film Festival (2)</a></li>
+      <li><time datetime="2006-10-26">2006-10-26</time><a href="/archives/425">UNAFF 2006: 9th United Nations Association Film Festival (1)</a></li>
+      <li><time datetime="2006-10-24">2006-10-24</time><a href="/archives/424">霍乱时期的爱情</a></li>
+      <li><time datetime="2006-10-23">2006-10-23</time><a href="/archives/422">贾樟柯的《世界》</a></li>
+      <li><time datetime="2006-10-22">2006-10-22</time><a href="/archives/420">雌性的草地——严歌苓</a></li>
+      <li><time datetime="2006-10-20">2006-10-20</time><a href="/archives/418">The Last King of Scotland</a></li>
+      <li><time datetime="2006-10-20">2006-10-20</time><a href="/archives/416">Petite Jerusalem, La 犹太女人</a></li>
+      <li><time datetime="2006-10-20">2006-10-20</time><a href="/archives/415">吓得——连“谢谢”都忘了</a></li>
+      <li><time datetime="2006-10-18">2006-10-18</time><a href="/archives/413">伊丽莎白一世</a></li>
+      <li><time datetime="2006-10-18">2006-10-18</time><a href="/archives/412">点与线/零的焦点——松本清张</a></li>
+      <li><time datetime="2006-10-17">2006-10-17</time><a href="/archives/409">The Diary of A Nobody——Grossmith Bros.</a></li>
+      <li><time datetime="2006-10-16">2006-10-16</time><a href="/archives/408">恶魔吹着笛子来</a></li>
+      <li><time datetime="2006-10-15">2006-10-15</time><a href="/archives/406">Queen, the</a></li>
+      <li><time datetime="2006-10-15">2006-10-15</time><a href="/archives/404">原罪之庭</a></li>
+      <li><time datetime="2006-10-14">2006-10-14</time><a href="/archives/403">名副其实之美版《无间道》——The Departed</a></li>
+      <li><time datetime="2006-10-13">2006-10-13</time><a href="/archives/402">一定要去看Marie Antoinette</a></li>
+      <li><time datetime="2006-10-12">2006-10-12</time><a href="/archives/400">何必把观众关在故事里面</a></li>
+      <li><time datetime="2006-10-12">2006-10-12</time><a href="/archives/398">金鱼和果汁机</a></li>
+      <li><time datetime="2006-10-11">2006-10-11</time><a href="/archives/396">在海迷失的蝴蝶</a></li>
+      <li><time datetime="2006-10-10">2006-10-10</time><a href="/archives/394">记忆的映像——《错格的幻影 Frame-Out》</a></li>
+      <li><time datetime="2006-10-09">2006-10-09</time><a href="/archives/393">呜。。。。。</a></li>
+      <li><time datetime="2006-10-07">2006-10-07</time><a href="/archives/392">Little Miss Sunshine</a></li>
+      <li><time datetime="2006-10-04">2006-10-04</time><a href="/archives/390">是爱，还是诡计——嫌疑犯X的献身</a></li>
+      <li><time datetime="2006-10-02">2006-10-02</time><a href="/archives/389">Half Nelson</a></li>
+      <li><time datetime="2006-10-02">2006-10-02</time><a href="/archives/387">两本台湾人写的推理小说</a></li>
+      <li><time datetime="2006-10-01">2006-10-01</time><a href="/archives/386">从记录片到剧情片</a></li>
+      <li><time datetime="2006-09-30">2006-09-30</time><a href="/archives/385">笑了，感动了，也许哭了，因为，《爱情来了》</a></li>
+      <li><time datetime="2006-09-29">2006-09-29</time><a href="/archives/384">东京审判——一部像样的主流历史片</a></li>
+      <li><time datetime="2006-09-28">2006-09-28</time><a href="/archives/383">The Chinese in America——Iris Chang</a></li>
+      <li><time datetime="2006-09-25">2006-09-25</time><a href="/archives/382">淘书记</a></li>
+      <li><time datetime="2006-09-24">2006-09-24</time><a href="/archives/342">杂谈亦舒</a></li>
+      <li><time datetime="2006-09-23">2006-09-23</time><a href="/archives/381">Umberto Eco——Misreadings</a></li>
+      <li><time datetime="2006-09-22">2006-09-22</time><a href="/archives/377">侯文詠的《淘气故事集》</a></li>
+      <li><time datetime="2006-09-21">2006-09-21</time><a href="/archives/376">Italo Calvino——看不见的城市</a></li>
+      <li><time datetime="2006-09-21">2006-09-21</time><a href="/archives/375">神探李昌钰</a></li>
+      <li><time datetime="2006-09-20">2006-09-20</time><a href="/archives/374">《夜宴》——终于凑了回热闹</a></li>
+      <li><time datetime="2006-09-19">2006-09-19</time><a href="/archives/372">你的《蓝色大门》呢？</a></li>
+      <li><time datetime="2006-09-19">2006-09-19</time><a href="/archives/371">数字化后现代的诡计——《全部成为F》</a></li>
+      <li><time datetime="2006-09-18">2006-09-18</time><a href="/archives/370">早起的诱惑</a></li>
+      <li><time datetime="2006-09-18">2006-09-18</time><a href="/archives/369">《追寻现代中国》之《从共产主义到市场经济》</a></li>
+      <li><time datetime="2006-09-17">2006-09-17</time><a href="/archives/368">the Illusionist</a></li>
+      <li><time datetime="2006-09-16">2006-09-16</time><a href="/archives/366">最近听的几张新专辑</a></li>
+      <li><time datetime="2006-09-15">2006-09-15</time><a href="/archives/355">Sequoia &amp; Kings Canyon NP 三日零碎</a></li>
+      <li><time datetime="2006-09-14">2006-09-14</time><a href="/archives/354">异度空间之推理——《请把门锁好》</a></li>
+      <li><time datetime="2006-09-13">2006-09-13</time><a href="/archives/353">扯两下</a></li>
+      <li><time datetime="2006-09-07">2006-09-07</time><a href="/archives/352">荒唐写实主义的《许三观卖血记》</a></li>
+      <li><time datetime="2006-09-07">2006-09-07</time><a href="/archives/351">赢了，输了</a></li>
+      <li><time datetime="2006-09-06">2006-09-06</time><a href="/archives/350">百看不厌的经典</a></li>
+      <li><time datetime="2006-09-05">2006-09-05</time><a href="/archives/349">书亦风尘仆仆</a></li>
+      <li><time datetime="2006-09-04">2006-09-04</time><a href="/archives/348">幽默的份量——《离岛医生》</a></li>
+      <li><time datetime="2006-09-03">2006-09-03</time><a href="/archives/347">轻了~~~</a></li>
+      <li><time datetime="2006-09-02">2006-09-02</time><a href="/archives/346">好看！《白色巨塔》</a></li>
+      <li><time datetime="2006-08-31">2006-08-31</time><a href="/archives/345">失望之《黑暗馆不死传说》</a></li>
+      <li><time datetime="2006-08-29">2006-08-29</time><a href="/archives/343">不寒而栗之《1984》年</a></li>
+      <li><time datetime="2006-08-24">2006-08-24</time><a href="/archives/341">超·杀人事件——推理作家的苦恼</a></li>
+      <li><time datetime="2006-08-24">2006-08-24</time><a href="/archives/340">隐痛与暗疾——现代文人的另一种解读</a></li>
+      <li><time datetime="2006-08-21">2006-08-21</time><a href="/archives/339">自从有了哲学家……</a></li>
+      <li><time datetime="2006-08-19">2006-08-19</time><a href="/archives/338">清欢之林清玄——《感性的蝴蝶》</a></li>
+      <li><time datetime="2006-08-18">2006-08-18</time><a href="/archives/337">闲情于晴外</a></li>
+      <li><time datetime="2006-08-18">2006-08-18</time><a href="/archives/336">过山车的阅读体验</a></li>
+      <li><time datetime="2006-08-16">2006-08-16</time><a href="/archives/335">亦舒《紫薇愿》</a></li>
+      <li><time datetime="2006-08-14">2006-08-14</time><a href="/archives/334">灰色之砦——篠田真由美</a></li>
+      <li><time datetime="2006-08-13">2006-08-13</time><a href="/archives/333">煙、土或食物——舞城王太郎</a></li>
+      <li><time datetime="2006-08-10">2006-08-10</time><a href="/archives/332">孤岛之谜——有栖川有栖</a></li>
+      <li><time datetime="2006-08-10">2006-08-10</time><a href="/archives/331">周末看的亦舒</a></li>
+      <li><time datetime="2006-08-10">2006-08-10</time><a href="/archives/330">红楼梦杀人事件——盧邊拓</a></li>
+      <li><time datetime="2006-08-03">2006-08-03</time><a href="/archives/329">听烦了——F.I.R《飞行部落》</a></li>
+      <li><time datetime="2006-08-03">2006-08-03</time><a href="/archives/328">别告诉左手——渡边容子</a></li>
+      <li><time datetime="2006-08-02">2006-08-02</time><a href="/archives/327">《都柏林人》的众生相</a></li>
+      <li><time datetime="2006-08-01">2006-08-01</time><a href="/archives/326">再见，列宁！</a></li>
+      <li><time datetime="2006-07-31">2006-07-31</time><a href="/archives/325">从惨绝人寰到“惨不忍睹”</a></li>
+      <li><time datetime="2006-07-30">2006-07-30</time><a href="/archives/324">Scoop——开膛手杰克的轻松喜剧版</a></li>
+      <li><time datetime="2006-07-27">2006-07-27</time><a href="/archives/323">黑桃A的血咒——鲇川哲也</a></li>
+      <li><time datetime="2006-07-26">2006-07-26</time><a href="/archives/322">御手洗洁的问候之数码锁——岛田庄司</a></li>
+      <li><time datetime="2006-07-26">2006-07-26</time><a href="/archives/321">雪地杀机——东野圭吾</a></li>
+      <li><time datetime="2006-07-25">2006-07-25</time><a href="/archives/320">岛田庄司《透明人的小屋》</a></li>
+      <li><time datetime="2006-07-24">2006-07-24</time><a href="/archives/319">不是那杯茶的《蛋白质女孩》</a></li>
+      <li><time datetime="2006-07-23">2006-07-23</time><a href="/archives/318">大师就是大师——看Monet</a></li>
+      <li><time datetime="2006-07-21">2006-07-21</time><a href="/archives/317">闲话看球</a></li>
+      <li><time datetime="2006-07-21">2006-07-21</time><a href="/archives/316">Corpse Bride僵尸新娘</a></li>
+      <li><time datetime="2006-07-20">2006-07-20</time><a href="/archives/315">Life of Pi—Yann Martel</a></li>
+      <li><time datetime="2006-07-19">2006-07-19</time><a href="/archives/314">闲看的</a></li>
+      <li><time datetime="2006-07-17">2006-07-17</time><a href="/archives/312">Sex and Lucia</a></li>
+      <li><time datetime="2006-07-17">2006-07-17</time><a href="/archives/311">芭娜娜《蜜月旅行》</a></li>
+      <li><time datetime="2006-07-16">2006-07-16</time><a href="/archives/310">海盗归来</a></li>
+      <li><time datetime="2006-07-16">2006-07-16</time><a href="/archives/309">唐鲁孙《南北看》</a></li>
+      <li><time datetime="2006-07-13">2006-07-13</time><a href="/archives/308">严歌苓的《第九个寡妇》</a></li>
+      <li><time datetime="2006-07-11">2006-07-11</time><a href="/archives/307">林行止之《英伦采风》</a></li>
+      <li><time datetime="2006-07-10">2006-07-10</time><a href="/archives/306">一届做梦的世界杯</a></li>
+      <li><time datetime="2006-07-09">2006-07-09</time><a href="/archives/305">当世界在说遗憾的时候</a></li>
+      <li><time datetime="2006-07-08">2006-07-08</time><a href="/archives/304">如果是一场假球……</a></li>
+      <li><time datetime="2006-07-06">2006-07-06</time><a href="/archives/303">刑侦剧也快餐</a></li>
+      <li><time datetime="2006-07-05">2006-07-05</time><a href="/archives/302">如此开心的巧合</a></li>
+      <li><time datetime="2006-07-05">2006-07-05</time><a href="/archives/301">关爱</a></li>
+      <li><time datetime="2006-07-05">2006-07-05</time><a href="/archives/300">李敖《第一流人的境界》</a></li>
+      <li><time datetime="2006-07-03">2006-07-03</time><a href="/archives/299">再牛B的输球也是输</a></li>
+      <li><time datetime="2006-07-01">2006-07-01</time><a href="/archives/298">迷信</a></li>
+      <li><time datetime="2006-06-30">2006-06-30</time><a href="/archives/297">眩晕</a></li>
+      <li><time datetime="2006-06-27">2006-06-27</time><a href="/archives/296">扯得漂亮——《物类最新消息》</a></li>
+      <li><time datetime="2006-06-26">2006-06-26</time><a href="/archives/295">运气</a></li>
+      <li><time datetime="2006-06-26">2006-06-26</time><a href="/archives/294">世界尽头和冷酷仙境</a></li>
+      <li><time datetime="2006-06-23">2006-06-23</time><a href="/archives/293">中国古代服饰研究</a></li>
+      <li><time datetime="2006-06-18">2006-06-18</time><a href="/archives/292">海龟，归了些什么？</a></li>
+      <li><time datetime="2006-06-16">2006-06-16</time><a href="/archives/291">将吃进行到底——《中国吃的故事》</a></li>
+      <li><time datetime="2006-06-15">2006-06-15</time><a href="/archives/290">《说东道西》唐鲁孙</a></li>
+      <li><time datetime="2006-06-14">2006-06-14</time><a href="/archives/289">色女郎看世界杯</a></li>
+      <li><time datetime="2006-06-14">2006-06-14</time><a href="/archives/288">听唐鲁孙讲老北京的故事</a></li>
+      <li><time datetime="2006-06-11">2006-06-11</time><a href="/archives/287">如果用电影拍一部电影史</a></li>
+      <li><time datetime="2006-06-09">2006-06-09</time><a href="/archives/286">从八卦开始……——《庄园的下午茶》</a></li>
+      <li><time datetime="2006-06-07">2006-06-07</time><a href="/archives/285">不许联想</a></li>
+      <li><time datetime="2006-06-07">2006-06-07</time><a href="/archives/284">爱滋与同性恋</a></li>
+      <li><time datetime="2006-06-07">2006-06-07</time><a href="/archives/283">如果巫师可以进天堂</a></li>
+      <li><time datetime="2006-06-05">2006-06-05</time><a href="/archives/282">同学少年都不贱</a></li>
+      <li><time datetime="2006-06-04">2006-06-04</time><a href="/archives/281">恍若隔世已惘然</a></li>
+      <li><time datetime="2006-06-02">2006-06-02</time><a href="/archives/280">无题</a></li>
+      <li><time datetime="2006-06-01">2006-06-01</time><a href="/archives/279">狂欢，是一群人的孤单</a></li>
+      <li><time datetime="2006-06-01">2006-06-01</time><a href="/archives/278">天冷就回来（另一结尾版）</a></li>
+      <li><time datetime="2006-05-31">2006-05-31</time><a href="/archives/277">剥虾</a></li>
+      <li><time datetime="2006-05-30">2006-05-30</time><a href="/archives/276">八卦好莱坞~</a></li>
+      <li><time datetime="2006-05-29">2006-05-29</time><a href="/archives/275">善与恶的宿命依存</a></li>
+      <li><time datetime="2006-05-27">2006-05-27</time><a href="/archives/274">关怀—白先勇散文评论集</a></li>
+      <li><time datetime="2006-05-26">2006-05-26</time><a href="/archives/273">情人</a></li>
+      <li><time datetime="2006-05-24">2006-05-24</time><a href="/archives/272">优雅的逝去—《游园惊梦》</a></li>
+      <li><time datetime="2006-05-23">2006-05-23</time><a href="/archives/271">既爱又恨之《胡适评传》</a></li>
+      <li><time datetime="2006-05-21">2006-05-21</time><a href="/archives/270">《少尉之死》—普通中的不普通</a></li>
+      <li><time datetime="2006-05-20">2006-05-20</time><a href="/archives/269">关于《达芬奇密码》的胡想</a></li>
+      <li><time datetime="2006-05-19">2006-05-19</time><a href="/archives/268">何必之《也是亚当，也是夏娃》</a></li>
+      <li><time datetime="2006-05-19">2006-05-19</time><a href="/archives/267">哪错了？？？—《谁家有女初长成》</a></li>
+      <li><time datetime="2006-05-18">2006-05-18</time><a href="/archives/266">李敖生死书</a></li>
+      <li><time datetime="2006-05-17">2006-05-17</time><a href="/archives/265">年华即瞬之《对照记》</a></li>
+      <li><time datetime="2006-05-17">2006-05-17</time><a href="/archives/264">被子</a></li>
+      <li><time datetime="2006-05-16">2006-05-16</time><a href="/archives/263">《从万宝囊到臭屎堆》里的惊人爆料</a></li>
+      <li><time datetime="2006-05-16">2006-05-16</time><a href="/archives/262">没有最吓人，只有更吓人的《血色迷雾》</a></li>
+      <li><time datetime="2006-05-14">2006-05-14</time><a href="/archives/261">看漫画，成就感十足</a></li>
+      <li><time datetime="2006-05-12">2006-05-12</time><a href="/archives/260">时间地图</a></li>
+      <li><time datetime="2006-05-11">2006-05-11</time><a href="/archives/259">太有种了！</a></li>
+      <li><time datetime="2006-05-11">2006-05-11</time><a href="/archives/258">都市传说拼图</a></li>
+      <li><time datetime="2006-05-10">2006-05-10</time><a href="/archives/257">自我毁灭的《IBIZA》村上龙</a></li>
+      <li><time datetime="2006-05-09">2006-05-09</time><a href="/archives/256">《卡拉马佐夫兄弟》的人性探索</a></li>
+      <li><time datetime="2006-05-08">2006-05-08</time><a href="/archives/254">让人背脊发凉的《魔咒之家》</a></li>
+      <li><time datetime="2006-05-07">2006-05-07</time><a href="/archives/252">李敖谈色—君子爱人以色</a></li>
+      <li><time datetime="2006-05-06">2006-05-06</time><a href="/archives/251">茉莉花怎样开—评《茉莉花开》</a></li>
+      <li><time datetime="2006-05-05">2006-05-05</time><a href="/archives/250">文人的饮食生活</a></li>
+      <li><time datetime="2006-05-02">2006-05-02</time><a href="/archives/249">烹调文字—吉本芭娜娜的《厨房》</a></li>
+      <li><time datetime="2006-05-01">2006-05-01</time><a href="/archives/248">随想录之无题集</a></li>
+      <li><time datetime="2006-04-29">2006-04-29</time><a href="/archives/247">李敖祸台五十年庆祝十书之四五</a></li>
+      <li><time datetime="2006-04-28">2006-04-28</time><a href="/archives/246">不要《面子》的生活喜剧</a></li>
+      <li><time datetime="2006-04-27">2006-04-27</time><a href="/archives/245">在自己房间里的旅行</a></li>
+      <li><time datetime="2006-04-26">2006-04-26</time><a href="/archives/244">读了一点池莉的新作《熬至滴水成珠》</a></li>
+      <li><time datetime="2006-04-26">2006-04-26</time><a href="/archives/243">马克思故居的洗手间指向牌</a></li>
+      <li><time datetime="2006-04-26">2006-04-26</time><a href="/archives/241">笑傲五十年—博学之上的大智慧</a></li>
+      <li><time datetime="2006-04-24">2006-04-24</time><a href="/archives/240">《随想录》之三之四</a></li>
+      <li><time datetime="2006-04-24">2006-04-24</time><a href="/archives/239">大都市的失真—Tokyo Eyes</a></li>
+      <li><time datetime="2006-04-23">2006-04-23</time><a href="/archives/238">水土不服的电影《玫瑰之名》</a></li>
+      <li><time datetime="2006-04-23">2006-04-23</time><a href="/archives/237">谈个恋爱吧，因为《再错也要谈恋爱》—蔡康永</a></li>
+      <li><time datetime="2006-04-22">2006-04-22</time><a href="/archives/236">《放学后》的阴谋—东野圭吾</a></li>
+      <li><time datetime="2006-04-21">2006-04-21</time><a href="/archives/235">新版金田一</a></li>
+      <li><time datetime="2006-04-21">2006-04-21</time><a href="/archives/234">《上海王》之声色上海</a></li>
+      <li><time datetime="2006-04-19">2006-04-19</time><a href="/archives/233">《七岁小孩》之扑面清风</a></li>
+      <li><time datetime="2006-04-18">2006-04-18</time><a href="/archives/232">《随想录》之后的随想</a></li>
+      <li><time datetime="2006-04-17">2006-04-17</time><a href="/archives/231">翻译</a></li>
+      <li><time datetime="2006-04-17">2006-04-17</time><a href="/archives/230">Status Anxiety-很确定自己是不重要的</a></li>
+      <li><time datetime="2006-04-14">2006-04-14</time><a href="/archives/229">值得看看的无穷动</a></li>
+      <li><time datetime="2006-04-13">2006-04-13</time><a href="/archives/228">病态的后现代</a></li>
+      <li><time datetime="2006-04-13">2006-04-13</time><a href="/archives/227">我们没有明天</a></li>
+      <li><time datetime="2006-04-12">2006-04-12</time><a href="/archives/226">听李敖谈情说爱</a></li>
+      <li><time datetime="2006-04-12">2006-04-12</time><a href="/archives/225">百合新娘</a></li>
+      <li><time datetime="2006-04-11">2006-04-11</time><a href="/archives/224">看上去，很美</a></li>
+      <li><time datetime="2006-04-10">2006-04-10</time><a href="/archives/223">Close Range-Ranch loser之故事</a></li>
+      <li><time datetime="2006-04-07">2006-04-07</time><a href="/archives/222">海上花之寂寞的自生自灭</a></li>
+      <li><time datetime="2006-04-05">2006-04-05</time><a href="/archives/221">上个世纪的千字歌</a></li>
+      <li><time datetime="2006-04-05">2006-04-05</time><a href="/archives/220">女神杀人事件–S.S.Van Dine</a></li>
+      <li><time datetime="2006-03-31">2006-03-31</time><a href="/archives/219">《香水》的神话之美</a></li>
+      <li><time datetime="2006-03-30">2006-03-30</time><a href="/archives/218">雨人-周华健</a></li>
+      <li><time datetime="2006-03-29">2006-03-29</time><a href="/archives/215">活活烧死</a></li>
+      <li><time datetime="2006-03-28">2006-03-28</time><a href="/archives/214">有一天，宝宝</a></li>
+      <li><time datetime="2006-03-27">2006-03-27</time><a href="/archives/213">Inside Man</a></li>
+      <li><time datetime="2006-03-26">2006-03-26</time><a href="/archives/212">人，不过这样</a></li>
+      <li><time datetime="2006-03-25">2006-03-25</time><a href="/archives/211">雨夜</a></li>
+      <li><time datetime="2006-03-25">2006-03-25</time><a href="/archives/210">读了一点安妮宝贝</a></li>
+      <li><time datetime="2006-03-23">2006-03-23</time><a href="/archives/209">风，吹散了云，卷来了沙</a></li>
+      <li><time datetime="2006-03-23">2006-03-23</time><a href="/archives/208">追寻现代中国之《革命与战争》</a></li>
+      <li><time datetime="2006-03-21">2006-03-21</time><a href="/archives/201">米国的天气，我永远不懂</a></li>
+      <li><time datetime="2006-03-20">2006-03-20</time><a href="/archives/1211">搬家通知</a></li>
+      <li><time datetime="2006-03-20">2006-03-20</time><a href="/archives/198">追寻现代中国之《最后的王朝》</a></li>
+      <li><time datetime="2006-03-20">2006-03-20</time><a href="/archives/197">V for Vendetta</a></li>
+      <li><time datetime="2006-03-17">2006-03-17</time><a href="/archives/196">从金刚，一场乱哄哄的闹剧想开去</a></li>
+      <li><time datetime="2006-03-17">2006-03-17</time><a href="/archives/195">学会感恩</a></li>
+      <li><time datetime="2006-03-15">2006-03-15</time><a href="/archives/194">与物理无关</a></li>
+      <li><time datetime="2006-03-14">2006-03-14</time><a href="/archives/193">快乐的受挫</a></li>
+      <li><time datetime="2006-03-14">2006-03-14</time><a href="/archives/192">扯</a></li>
+      <li><time datetime="2006-03-14">2006-03-14</time><a href="/archives/191">康永的顽皮和智慧</a></li>
+      <li><time datetime="2006-03-13">2006-03-13</time><a href="/archives/190">还原完整的张爱玲</a></li>
+      <li><time datetime="2006-03-13">2006-03-13</time><a href="/archives/189">一个还蛮好玩的心理游戏</a></li>
+      <li><time datetime="2006-03-11">2006-03-11</time><a href="/archives/188">另一个张爱玲—读《秧歌》</a></li>
+      <li><time datetime="2006-03-11">2006-03-11</time><a href="/archives/187">Depp’s wonderful performance</a></li>
+      <li><time datetime="2006-03-10">2006-03-10</time><a href="/archives/186">士兵与狗</a></li>
+      <li><time datetime="2006-03-08">2006-03-08</time><a href="/archives/185">穗子物语</a></li>
+      <li><time datetime="2006-03-07">2006-03-07</time><a href="/archives/184">佐西马长老的谈话和训言</a></li>
+      <li><time datetime="2006-03-05">2006-03-05</time><a href="/archives/183">一句话评</a></li>
+      <li><time datetime="2006-03-04">2006-03-04</time><a href="/archives/182">眼睛·黑暗·光明</a></li>
+      <li><time datetime="2006-03-04">2006-03-04</time><a href="/archives/181">怀旧是一种缘分</a></li>
+      <li><time datetime="2006-02-27">2006-02-27</time><a href="/archives/180">文字·音乐</a></li>
+      <li><time datetime="2006-02-26">2006-02-26</time><a href="/archives/179">白先勇先生的人文关怀</a></li>
+      <li><time datetime="2006-02-24">2006-02-24</time><a href="/archives/178">逛书店记</a></li>
+      <li><time datetime="2006-02-23">2006-02-23</time><a href="/archives/177">无处不在的喜宝</a></li>
+      <li><time datetime="2006-02-22">2006-02-22</time><a href="/archives/176">习惯·知觉</a></li>
+      <li><time datetime="2006-02-22">2006-02-22</time><a href="/archives/175">看完就把它忘光光</a></li>
+      <li><time datetime="2006-02-19">2006-02-19</time><a href="/archives/174">白先勇的短篇</a></li>
+      <li><time datetime="2006-02-18">2006-02-18</time><a href="/archives/173">KT Tunstall–Other side of the World</a></li>
+      <li><time datetime="2006-02-18">2006-02-18</time><a href="/archives/172">如果·爱/千里走单骑</a></li>
+      <li><time datetime="2006-02-16">2006-02-16</time><a href="/archives/171">如花，最毒的女人</a></li>
+      <li><time datetime="2006-02-14">2006-02-14</time><a href="/archives/170">杜麗娘之英勇</a></li>
+      <li><time datetime="2006-02-13">2006-02-13</time><a href="/archives/169">杀人馆之黑猫馆和迷路馆</a></li>
+      <li><time datetime="2006-02-13">2006-02-13</time><a href="/archives/168">这个星期天有点凉</a></li>
+      <li><time datetime="2006-02-11">2006-02-11</time><a href="/archives/167">我想变成骆驼</a></li>
+      <li><time datetime="2006-02-10">2006-02-10</time><a href="/archives/166">Ice Storm &amp; Ride with the Devil</a></li>
+      <li><time datetime="2006-02-10">2006-02-10</time><a href="/archives/165">李安之父亲三部曲</a></li>
+      <li><time datetime="2006-02-09">2006-02-09</time><a href="/archives/164">影如梦，梦中影</a></li>
+      <li><time datetime="2006-02-08">2006-02-08</time><a href="/archives/163">The juice of life–Piero Camporesi</a></li>
+      <li><time datetime="2006-02-08">2006-02-08</time><a href="/archives/162">早晨醒来</a></li>
+      <li><time datetime="2006-02-06">2006-02-06</time><a href="/archives/161">爱过以后</a></li>
+      <li><time datetime="2006-02-05">2006-02-05</time><a href="/archives/160">Hatshepsut: From Queen to Pharaoh</a></li>
+      <li><time datetime="2006-02-03">2006-02-03</time><a href="/archives/159">生死桥之生生死死</a></li>
+      <li><time datetime="2006-02-01">2006-02-01</time><a href="/archives/158">兄弟之木然的残酷和温馨</a></li>
+      <li><time datetime="2006-01-31">2006-01-31</time><a href="/archives/157">京华烟云之生生不息</a></li>
+      <li><time datetime="2006-01-25">2006-01-25</time><a href="/archives/156">中国结之父与子</a></li>
+      <li><time datetime="2006-01-24">2006-01-24</time><a href="/archives/155">漫长婚约</a></li>
+      <li><time datetime="2006-01-23">2006-01-23</time><a href="/archives/154">杯酒人生</a></li>
+      <li><time datetime="2006-01-21">2006-01-21</time><a href="/archives/153">KingKong之征服被征服</a></li>
+      <li><time datetime="2006-01-20">2006-01-20</time><a href="/archives/152">金庸武侠中的汉族情结</a></li>
+      <li><time datetime="2006-01-19">2006-01-19</time><a href="/archives/151">哥伦布与他的环球航行</a></li>
+      <li><time datetime="2006-01-18">2006-01-18</time><a href="/archives/150">断背山VS北京故事</a></li>
+      <li><time datetime="2006-01-14">2006-01-14</time><a href="/archives/149">有一种流行叫忽悠</a></li>
+      <li><time datetime="2006-01-14">2006-01-14</time><a href="/archives/148">Woody Allen’s Match Point</a></li>
+      <li><time datetime="2006-01-13">2006-01-13</time><a href="/archives/147">Solar之直觉</a></li>
+      <li><time datetime="2006-01-13">2006-01-13</time><a href="/archives/146">有点耳熟</a></li>
+      <li><time datetime="2006-01-12">2006-01-12</time><a href="/archives/145">蓖麻油的故事</a></li>
+      <li><time datetime="2006-01-10">2006-01-10</time><a href="/archives/144">曹方之遇见我</a></li>
+      <li><time datetime="2006-01-09">2006-01-09</time><a href="/archives/143">张韶涵之潘多拉</a></li>
+      <li><time datetime="2006-01-09">2006-01-09</time><a href="/archives/142">王安忆之屋顶上的童话</a></li>
+      <li><time datetime="2006-01-08">2006-01-08</time><a href="/archives/141">周六在三番</a></li>
+      <li><time datetime="2006-01-06">2006-01-06</time><a href="/archives/140">哀、哀、哀，全是哀的《草鞋权贵》</a></li>
+      <li><time datetime="2006-01-05">2006-01-05</time><a href="/archives/139">蔡康永也生气了</a></li>
+      <li><time datetime="2006-01-04">2006-01-04</time><a href="/archives/138">严歌苓之密语者</a></li>
+      <li><time datetime="2006-01-04">2006-01-04</time><a href="/archives/137">小说亦舒</a></li>
+      <li><time datetime="2006-01-03">2006-01-03</time><a href="/archives/136">不乖小王子</a></li>
+      <li><time datetime="2006-01-02">2006-01-02</time><a href="/archives/135">王安忆短篇集《剃度》</a></li>
+      <li><time datetime="2006-01-02">2006-01-02</time><a href="/archives/134">少了小s，少了康熙的原味</a></li>
+      <li><time datetime="2006-01-01">2006-01-01</time><a href="/archives/133">开始</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2005">
+      <h2>2005 <span>119</span></h2>
+      <ul>
+      <li><time datetime="2005-12-31">2005-12-31</time><a href="/archives/132">New Year Eve瞎逛</a></li>
+      <li><time datetime="2005-12-30">2005-12-30</time><a href="/archives/131">喜宴之悲喜</a></li>
+      <li><time datetime="2005-12-29">2005-12-29</time><a href="/archives/130">怪事多，多怪事</a></li>
+      <li><time datetime="2005-12-28">2005-12-28</time><a href="/archives/129">《小妇人》之冰雪中的温情</a></li>
+      <li><time datetime="2005-12-27">2005-12-27</time><a href="/archives/128">听歌</a></li>
+      <li><time datetime="2005-12-26">2005-12-26</time><a href="/archives/127">分猪肉</a></li>
+      <li><time datetime="2005-12-25">2005-12-25</time><a href="/archives/126">倒数</a></li>
+      <li><time datetime="2005-12-24">2005-12-24</time><a href="/archives/125">冷清的Christmas Eve</a></li>
+      <li><time datetime="2005-12-23">2005-12-23</time><a href="/archives/124">这个冬天，快乐</a></li>
+      <li><time datetime="2005-12-21">2005-12-21</time><a href="/archives/123">无极无话</a></li>
+      <li><time datetime="2005-12-21">2005-12-21</time><a href="/archives/122">乱谈断背山</a></li>
+      <li><time datetime="2005-12-20">2005-12-20</time><a href="/archives/121">修心</a></li>
+      <li><time datetime="2005-12-18">2005-12-18</time><a href="/archives/120">The story of Art–E.H.Gombrich</a></li>
+      <li><time datetime="2005-12-17">2005-12-17</time><a href="/archives/119">快到圣诞</a></li>
+      <li><time datetime="2005-12-15">2005-12-15</time><a href="/archives/118">冬日里暖暖的《光》</a></li>
+      <li><time datetime="2005-12-15">2005-12-15</time><a href="/archives/117">麻烦</a></li>
+      <li><time datetime="2005-12-13">2005-12-13</time><a href="/archives/116">刑侦四的爱情和案情</a></li>
+      <li><time datetime="2005-12-12">2005-12-12</time><a href="/archives/115">多如牛毛之奖</a></li>
+      <li><time datetime="2005-12-10">2005-12-10</time><a href="/archives/114">学会喜欢</a></li>
+      <li><time datetime="2005-12-08">2005-12-08</time><a href="/archives/113">先抬头，才能看得更远</a></li>
+      <li><time datetime="2005-12-07">2005-12-07</time><a href="/archives/112">下雨</a></li>
+      <li><time datetime="2005-12-07">2005-12-07</time><a href="/archives/111">坐在玻璃窗里的阳光下读书</a></li>
+      <li><time datetime="2005-12-06">2005-12-06</time><a href="/archives/110">都市童话阿旺新传</a></li>
+      <li><time datetime="2005-11-21">2005-11-21</time><a href="/archives/109">张悦然之走失的葵花</a></li>
+      <li><time datetime="2005-11-16">2005-11-16</time><a href="/archives/108">最好的时光，好美的电影</a></li>
+      <li><time datetime="2005-11-02">2005-11-02</time><a href="/archives/107">日本新本格推理之神—岛田庄司</a></li>
+      <li><time datetime="2005-11-01">2005-11-01</time><a href="/archives/106">黑暗坡的杀人树</a></li>
+      <li><time datetime="2005-10-27">2005-10-27</time><a href="/archives/105">宏伟壮阔的《魔神的游戏》</a></li>
+      <li><time datetime="2005-10-14">2005-10-14</time><a href="/archives/104">严歌苓–倒淌河</a></li>
+      <li><time datetime="2005-10-11">2005-10-11</time><a href="/archives/103">沈从文：给志在写作者</a></li>
+      <li><time datetime="2005-10-11">2005-10-11</time><a href="/archives/102">沈从文–边城</a></li>
+      <li><time datetime="2005-10-11">2005-10-11</time><a href="/archives/101">听完北京一夜，某小孩，对你说</a></li>
+      <li><time datetime="2005-10-09">2005-10-09</time><a href="/archives/100">黑白的妖魅</a></li>
+      <li><time datetime="2005-10-07">2005-10-07</time><a href="/archives/99">读亦舒</a></li>
+      <li><time datetime="2005-10-06">2005-10-06</time><a href="/archives/98">肢解尸体之谜–绫十行人</a></li>
+      <li><time datetime="2005-10-02">2005-10-02</time><a href="/archives/97">亦舒新近作</a></li>
+      <li><time datetime="2005-09-29">2005-09-29</time><a href="/archives/96">Death From a Top Hat—–Clayton Rawson</a></li>
+      <li><time datetime="2005-09-25">2005-09-25</time><a href="/archives/95">振动魔—-海野十三</a></li>
+      <li><time datetime="2005-09-25">2005-09-25</time><a href="/archives/94">天使已消失—-夏树静子</a></li>
+      <li><time datetime="2005-09-22">2005-09-22</time><a href="/archives/93">寝台特急1/60秒障碍</a></li>
+      <li><time datetime="2005-09-19">2005-09-19</time><a href="/archives/92">湘女萧萧</a></li>
+      <li><time datetime="2005-09-15">2005-09-15</time><a href="/archives/91">斜屋犯罪，绝了</a></li>
+      <li><time datetime="2005-09-15">2005-09-15</time><a href="/archives/90">有一种美，可以这样</a></li>
+      <li><time datetime="2005-09-08">2005-09-08</time><a href="/archives/89">怪吓人的《面具馆》</a></li>
+      <li><time datetime="2005-08-26">2005-08-26</time><a href="/archives/88">看完超女</a></li>
+      <li><time datetime="2005-08-21">2005-08-21</time><a href="/archives/87">嘎然而止之《花儿与少年》</a></li>
+      <li><time datetime="2005-08-12">2005-08-12</time><a href="/archives/86">歌坛还有没有希望？</a></li>
+      <li><time datetime="2005-08-12">2005-08-12</time><a href="/archives/85">有这样一个干净的女孩</a></li>
+      <li><time datetime="2005-08-08">2005-08-08</time><a href="/archives/84">王蒙活说红楼</a></li>
+      <li><time datetime="2005-08-05">2005-08-05</time><a href="/archives/83">感动、新鲜和疲劳–看今天的超级女声</a></li>
+      <li><time datetime="2005-07-31">2005-07-31</time><a href="/archives/82">小结</a></li>
+      <li><time datetime="2005-07-22">2005-07-22</time><a href="/archives/81">瞎8</a></li>
+      <li><time datetime="2005-07-21">2005-07-21</time><a href="/archives/80">清水出芙蓉之桃之夭夭</a></li>
+      <li><time datetime="2005-07-20">2005-07-20</time><a href="/archives/79">喜欢F.I.R</a></li>
+      <li><time datetime="2005-06-27">2005-06-27</time><a href="/archives/78">蔡康永vs王文华</a></li>
+      <li><time datetime="2005-06-24">2005-06-24</time><a href="/archives/77">爱不上的《深圳情人》</a></li>
+      <li><time datetime="2005-06-22">2005-06-22</time><a href="/archives/76">Baudolino的神秘和浪漫</a></li>
+      <li><time datetime="2005-06-07">2005-06-07</time><a href="/archives/75">完美的《白马之恋》</a></li>
+      <li><time datetime="2005-06-06">2005-06-06</time><a href="/archives/74">乱丢</a></li>
+      <li><time datetime="2005-06-03">2005-06-03</time><a href="/archives/73">累了</a></li>
+      <li><time datetime="2005-05-29">2005-05-29</time><a href="/archives/72">吃吃逛逛玩玩</a></li>
+      <li><time datetime="2005-05-26">2005-05-26</time><a href="/archives/71">唐鲁孙之北京的吃</a></li>
+      <li><time datetime="2005-05-24">2005-05-24</time><a href="/archives/70">Foucault’s Pendulum—Umberto Eco</a></li>
+      <li><time datetime="2005-05-24">2005-05-24</time><a href="/archives/69">读书也要些自虐</a></li>
+      <li><time datetime="2005-05-17">2005-05-17</time><a href="/archives/68">减肥</a></li>
+      <li><time datetime="2005-05-15">2005-05-15</time><a href="/archives/67">多媒体的《天黑以后》</a></li>
+      <li><time datetime="2005-05-14">2005-05-14</time><a href="/archives/66">背书</a></li>
+      <li><time datetime="2005-05-14">2005-05-14</time><a href="/archives/65">Chinese Bell Murders—Robert van Gulik</a></li>
+      <li><time datetime="2005-05-12">2005-05-12</time><a href="/archives/64">The Roman Hat Mystery—Ellery Queen</a></li>
+      <li><time datetime="2005-05-09">2005-05-09</time><a href="/archives/63">荷兰人写的狄仁杰</a></li>
+      <li><time datetime="2005-05-08">2005-05-08</time><a href="/archives/62">The Man in Lower Ten—Mary Roberts Rineheart</a></li>
+      <li><time datetime="2005-05-08">2005-05-08</time><a href="/archives/61">像猪</a></li>
+      <li><time datetime="2005-05-05">2005-05-05</time><a href="/archives/60">The Crooked Hinge—John Dickson Carr</a></li>
+      <li><time datetime="2005-05-05">2005-05-05</time><a href="/archives/59">The Red House Mystery—A.A.Milne</a></li>
+      <li><time datetime="2005-05-01">2005-05-01</time><a href="/archives/58">Lost Coast (2)</a></li>
+      <li><time datetime="2005-05-01">2005-05-01</time><a href="/archives/57">Lost Coast (1)</a></li>
+      <li><time datetime="2005-04-30">2005-04-30</time><a href="/archives/56">The Tragdy of X–Ellery Queen</a></li>
+      <li><time datetime="2005-04-30">2005-04-30</time><a href="/archives/55">Siamese Twin Mystery–Ellery Queen</a></li>
+      <li><time datetime="2005-04-25">2005-04-25</time><a href="/archives/54">名人画传</a></li>
+      <li><time datetime="2005-04-21">2005-04-21</time><a href="/archives/53">双曲线杀人案，一般般</a></li>
+      <li><time datetime="2005-04-20">2005-04-20</time><a href="/archives/52">后现代的《姑获鸟的夏天》</a></li>
+      <li><time datetime="2005-04-17">2005-04-17</time><a href="/archives/51">丰富到让人忘记谋杀的《玫瑰之名》</a></li>
+      <li><time datetime="2005-04-09">2005-04-09</time><a href="/archives/50">一个人出门</a></li>
+      <li><time datetime="2005-04-05">2005-04-05</time><a href="/archives/49">沉迷</a></li>
+      <li><time datetime="2005-04-03">2005-04-03</time><a href="/archives/48">书虫</a></li>
+      <li><time datetime="2005-04-01">2005-04-01</time><a href="/archives/47">岛田的《异想天开》</a></li>
+      <li><time datetime="2005-03-29">2005-03-29</time><a href="/archives/46">分手为了幸福</a></li>
+      <li><time datetime="2005-03-27">2005-03-27</time><a href="/archives/45">乱怀旧</a></li>
+      <li><time datetime="2005-03-26">2005-03-26</time><a href="/archives/44">看卡通机器人</a></li>
+      <li><time datetime="2005-03-25">2005-03-25</time><a href="/archives/43">且行且珍惜</a></li>
+      <li><time datetime="2005-03-24">2005-03-24</time><a href="/archives/42">缺觉</a></li>
+      <li><time datetime="2005-03-23">2005-03-23</time><a href="/archives/41">又吃</a></li>
+      <li><time datetime="2005-03-22">2005-03-22</time><a href="/archives/40">美丽的女人Coco</a></li>
+      <li><time datetime="2005-03-20">2005-03-20</time><a href="/archives/39">下雨的星期天，真好</a></li>
+      <li><time datetime="2005-03-18">2005-03-18</time><a href="/archives/38">女人</a></li>
+      <li><time datetime="2005-03-16">2005-03-16</time><a href="/archives/37">好想《享受巴黎》</a></li>
+      <li><time datetime="2005-03-12">2005-03-12</time><a href="/archives/36">听於梨华讲故事</a></li>
+      <li><time datetime="2005-03-11">2005-03-11</time><a href="/archives/35">看片</a></li>
+      <li><time datetime="2005-03-10">2005-03-10</time><a href="/archives/34">human stain</a></li>
+      <li><time datetime="2005-03-09">2005-03-09</time><a href="/archives/33">妮可之狗镇</a></li>
+      <li><time datetime="2005-03-09">2005-03-09</time><a href="/archives/32">看了好多</a></li>
+      <li><time datetime="2005-03-04">2005-03-04</time><a href="/archives/31">李敖之上山 上山 爱</a></li>
+      <li><time datetime="2005-03-02">2005-03-02</time><a href="/archives/30">严歌苓的短篇和银熊孔雀</a></li>
+      <li><time datetime="2005-02-28">2005-02-28</time><a href="/archives/29">赵赵之内衣</a></li>
+      <li><time datetime="2005-02-24">2005-02-24</time><a href="/archives/28">韩寒之长安乱</a></li>
+      <li><time datetime="2005-02-23">2005-02-23</time><a href="/archives/27">啃完大平天国</a></li>
+      <li><time datetime="2005-02-22">2005-02-22</time><a href="/archives/26">散而精的《人寰》</a></li>
+      <li><time datetime="2005-02-20">2005-02-20</time><a href="/archives/25">吃</a></li>
+      <li><time datetime="2005-02-16">2005-02-16</time><a href="/archives/24">公式化的《天使与魔鬼》</a></li>
+      <li><time datetime="2005-02-13">2005-02-13</time><a href="/archives/23">《无出路咖啡馆》出路何在</a></li>
+      <li><time datetime="2005-02-10">2005-02-10</time><a href="/archives/22">才女林徽因</a></li>
+      <li><time datetime="2005-02-06">2005-02-06</time><a href="/archives/21">《扶桑》之女人·爱情·婚姻</a></li>
+      <li><time datetime="2005-02-02">2005-02-02</time><a href="/archives/20">赶上达芬奇密码之热潮</a></li>
+      <li><time datetime="2005-01-30">2005-01-30</time><a href="/archives/19">柏杨回忆录</a></li>
+      <li><time datetime="2005-01-26">2005-01-26</time><a href="/archives/18">准备活动</a></li>
+      <li><time datetime="2005-01-24">2005-01-24</time><a href="/archives/17">补课</a></li>
+      <li><time datetime="2005-01-12">2005-01-12</time><a href="/archives/16">吃素</a></li>
+      <li><time datetime="2005-01-06">2005-01-06</time><a href="/archives/15">Lilla’s Feast</a></li>
+      <li><time datetime="2005-01-01">2005-01-01</time><a href="/archives/14">圆蛋</a></li>
+      </ul>
+    </section>
+    <section class="year" id="y2004">
+      <h2>2004 <span>11</span></h2>
+      <ul>
+      <li><time datetime="2004-12-20">2004-12-20</time><a href="/archives/13">圣诞树</a></li>
+      <li><time datetime="2004-12-17">2004-12-17</time><a href="/archives/12">索多玛之实验写作</a></li>
+      <li><time datetime="2004-12-16">2004-12-16</time><a href="/archives/11">红楼情结</a></li>
+      <li><time datetime="2004-12-14">2004-12-14</time><a href="/archives/10">还是读书</a></li>
+      <li><time datetime="2004-12-09">2004-12-09</time><a href="/archives/9">天冷就回来</a></li>
+      <li><time datetime="2004-12-09">2004-12-09</time><a href="/archives/8">一辈子的“单身”</a></li>
+      <li><time datetime="2004-12-02">2004-12-02</time><a href="/archives/7">臭美</a></li>
+      <li><time datetime="2004-11-27">2004-11-27</time><a href="/archives/6">积极健康之天涯侠医</a></li>
+      <li><time datetime="2004-11-22">2004-11-22</time><a href="/archives/5">读书</a></li>
+      <li><time datetime="2004-11-20">2004-11-20</time><a href="/archives/4">The Rape of Nanking by Iris Chang</a></li>
+      <li><time datetime="2004-11-19">2004-11-19</time><a href="/archives/3">第一篇</a></li>
+      </ul>
+    </section>
+    <footer>
+      <p><a href="https://lilyppbb.wordpress.com/">lilyppbb.wordpress.com</a> · static index for lily.wuxinan.net</p>
+    </footer>
+  </div>
+</body>
+</html>

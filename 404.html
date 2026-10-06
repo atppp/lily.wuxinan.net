@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<script>
+(function () {
+  var DEST = "https://lilyppbb.wordpress.com";
+  // Old post IDs that do not match lilyppbb.wordpress.com post IDs.
+  var REMAP = { "6": "2778", "23": "2779", "25": "2780" };
+  var path = location.pathname;
+
+  var m = path.match(/\/archives\/(\d+)\/?$/);
+  if (m) {
+    var id = REMAP[m[1]] || m[1];
+    location.replace(DEST + "/?p=" + id);
+    return;
+  }
+
+  m = path.match(/\/archives\/category\/([^\/]+)\/?$/);
+  if (m) {
+    location.replace(DEST + "/category/" + decodeURIComponent(m[1]) + "/");
+    return;
+  }
+
+  // Page aliases (old pretty paths → WordPress.com slugs)
+  var pages = {
+    "about": "/about-me/",
+    "about-me": "/about-me/",
+    "library": "/library-chinese/",
+    "library-chinese": "/library-chinese/",
+    "library-english": "/library-english/",
+    "home-library": "/home-library/",
+    "us-travel": "/us-travel/"
+  };
+  m = path.match(/\/([^\/]+)\/?$/);
+  if (m && pages[m[1]]) {
+    location.replace(DEST + pages[m[1]]);
+    return;
+  }
+
+  // Old archive index → local static page
+  if (/\/archive(-index)?\/?$/.test(path)) {
+    location.replace("/archive/");
+    return;
+  }
+
+  document.title = "Not found";
+})();
+</script>
+</head>
+<body>
+<p>If you are not redirected, open <a href="https://lilyppbb.wordpress.com/">lilyppbb.wordpress.com</a>.</p>
+</body>
+</html>
